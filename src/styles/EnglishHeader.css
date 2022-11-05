@@ -3,21 +3,25 @@
 }
 
 #header-wrapper-3 {
-    border-top: 2px solid lightgray;
-    border-bottom: 2px solid lightgray;
+    /* border-bottom: 0.45vh solid lightgray; */
+    padding-top: 0.7vh;
+    /* padding-bottom: 0.7vh; */
 }
 
 #header-wrapper-2 {
-    border-top: 2px solid darkgray;
-    border-bottom: 2px solid darkgray;
+    border-top: 0.45vh solid darkgray;
+    border-bottom: 0.45vh solid darkgray;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
 }
 
 #header-wrapper-1 {
-    border-top: 4px solid darkred;
-    border-bottom: 4px solid darkred;
+    border-top: 0.5vh solid darkred;
+    border-bottom: 0.5vh solid darkred;
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     align-items: center;
+    padding-left: 5rem;
     height: 4.33rem;
     gap: 3rem;
 }
@@ -26,9 +30,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: pink;
-    width: 9rem;
-    height: 3rem;
+    width: 6rem;
+    height: 4.33rem;
 }
 
 #english-header-nav{

@@ -1,0 +1,37 @@
+#english-hero-wrapper {
+    display: flex;
+    background-color: lightgray;
+    height:44vh;
+    justify-content: center;
+}
+
+#english-hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height:44vh;
+    background-color: lightgray;
+    background-image: url('../images/SkylineBG.webp');
+    background-position: 150% 50%;
+    background-size: cover;
+    resize:both;
+}
+
+#english-hero-logo {
+    padding-top: 3.5vh;
+    padding-bottom: 2vh;
+    justify-content: left;
+}
+
+#english-hero-title {
+    display: flex;
+    padding-top: 3.5vh;
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+    font-size: 6vh;
+    grid-column: 1 / 4;
+}
