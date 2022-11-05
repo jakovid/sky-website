@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
     width:100vw;
-    height:44vh;
+    height:23.3rem;
     background-color: lightgray;
     background-image: url('../images/SkylineBG.webp');
     background-position: 150% 50%;
@@ -21,8 +21,8 @@
 }
 
 #english-hero-logo {
-    padding-top: 3.5vh;
-    padding-bottom: 2vh;
+    padding-top: 1.9rem;
+    padding-bottom: 1.5rem;
     justify-content: left;
 }
 
@@ -32,6 +32,6 @@
     height: 100%;
     flex-direction: column;
     text-align: center;
-    font-size: 6vh;
+    font-size: 4rem;
     grid-column: 1 / 4;
 }

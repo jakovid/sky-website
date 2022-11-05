@@ -3,21 +3,19 @@
 }
 
 #header-wrapper-3 {
-    /* border-bottom: 0.45vh solid lightgray; */
-    padding-top: 0.7vh;
-    /* padding-bottom: 0.7vh; */
+    padding-top: 0.35rem;
 }
 
 #header-wrapper-2 {
-    border-top: 0.45vh solid darkgray;
-    border-bottom: 0.45vh solid darkgray;
-    padding-top: 0.5vh;
-    padding-bottom: 0.5vh;
+    border-top: 0.2rem solid darkgray;
+    border-bottom: 0.2rem solid darkgray;
+    padding-top: 0.29rem;
+    padding-bottom: 0.29rem;
 }
 
 #header-wrapper-1 {
-    border-top: 0.5vh solid darkred;
-    border-bottom: 0.5vh solid darkred;
+    border-top: 0.29rem solid darkred;
+    border-bottom: 0.29rem solid darkred;
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     align-items: center;

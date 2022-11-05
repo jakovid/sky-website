@@ -1,0 +1,52 @@
+#english-home-cta-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    background-color: darkblue;
+    height: 13.4rem;
+    padding-top:1.5rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    gap: 3rem;
+}
+
+#english-home-cta-text {
+    font-size: 3.3rem;
+}
+
+#english-home-cta-email-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 3rem;
+    width: 27rem;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+    border-radius: 1.5rem;
+    border: red solid 2.5px;
+    box-shadow: 0px 0px 15px white;
+}
+
+#english-home-cta-email-input {
+    outline: none;
+    border: none;
+    height: 2.5rem;
+    width: 15rem
+}
+
+#english-home-cta-submit-button {
+    color:white;
+    background-color: darkred;
+    font-weight: bold;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+#english-home-cta-email-subtext {
+    text-align: center;
+    padding-top: 3rem;
+}

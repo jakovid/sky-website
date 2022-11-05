@@ -1,8 +1,8 @@
 import React from "react";
 import SkyLogo2 from "../images/SkyLogo2.webp";
-import '../styles/EnglishHero.css';
+import '../styles/EnglishHomeHero.css';
 
-export default function EnglishHero() {
+export default function EnglishHeroHome() {
     return(
         <div id='english-hero-wrapper'>
             <div id='english-hero-container'>

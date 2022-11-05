@@ -1,0 +1,32 @@
+#english-home-body-container {
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.english-home-body-item {
+    display: flex;
+    flex-direction: column;
+    width:20rem;
+    align-items: center;
+    text-align: center;
+}
+
+.english-home-body-image {
+    border-radius: 50%;
+}
+
+.english-home-body-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(75, 75, 197);
+}
+
+.english-home-body-text {
+    padding-top: 1rem;
+    font-weight: bold;
+    font-size: 1.39rem;
+}
