@@ -13,7 +13,7 @@ export default function EnglishHeader() {
                         <a href='./'>Home</a>
                         <a href='./about-us'>About Us</a>
                         <a href='./our-team'>Our Team</a>
-                        <a>Our Classes</a>
+                        <a href='./our-classes'>Our Classes</a>
                         <a>Contact Us</a>
                     </div>
                     <div id='english-header-language'>

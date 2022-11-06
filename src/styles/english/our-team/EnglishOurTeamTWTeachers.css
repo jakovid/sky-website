@@ -1,0 +1,26 @@
+#english-our-team-tw-teachers-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#english-our-team-tw-teachers {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50rem;
+    gap: 3rem;
+}
+
+.taiwan-teacher-picture {
+    height: 16rem;
+}
+
+.taiwan-teacher-name {
+    color: darkblue;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}

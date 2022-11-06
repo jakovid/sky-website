@@ -1,11 +1,14 @@
-import { TaiwanTeachers } from "../../../data/TaiwanTeachers";
 import React from "react";
-import TaiwanTeacher from "./TaiwanTeacher";
+import PopulateTaiwanTeachers from "./PopulateTaiwanTeachers";
+import '../../../styles/english/our-team/EnglishOurTeamTWTeachers.css';
+
 
 export default function EnglishOurTeamTWTeachers() {
     return(
-        TaiwanTeachers.map(teacher => {
-            return <TaiwanTeacher key={teacher.id} teacher={teacher} />
-        })
+        <div id='english-our-team-tw-teachers-container'>
+            <div id='english-our-team-tw-teachers'>
+            <PopulateTaiwanTeachers />
+            </div>
+        </div>
     )
 }

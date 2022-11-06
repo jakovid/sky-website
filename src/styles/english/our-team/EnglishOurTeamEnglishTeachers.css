@@ -1,0 +1,41 @@
+#english-our-team-english-teachers-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#english-our-team-english-teachers {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70rem;
+    gap: 3rem;
+}
+
+.english-teacher-picture {
+    height: 20rem;
+}
+
+.english-teacher-info-box {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.english-teacher-name {
+    color: darkblue;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.english-teacher-bio {
+    display: flex;
+    flex-wrap: wrap;
+    width: 19rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding-top: 0.8rem;
+}
