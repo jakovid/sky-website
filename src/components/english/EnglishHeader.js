@@ -12,7 +12,7 @@ export default function EnglishHeader() {
                     <div id='english-header-nav'>
                         <a href='./'>Home</a>
                         <a href='./about-us'>About Us</a>
-                        <a>Our Team</a>
+                        <a href='./our-team'>Our Team</a>
                         <a>Our Classes</a>
                         <a>Contact Us</a>
                     </div>

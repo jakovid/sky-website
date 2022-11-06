@@ -1,0 +1,82 @@
+#english-about-us-intro-container {
+    text-align: center;
+}
+
+#english-about-us-intro-title {
+    font-size: 3rem;
+    color: darkblue;
+    padding-top: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+#english-about-us-intro-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.english-about-us-intro-box {
+    color: white;
+    background-color: darkred;
+    width: 20rem;
+    height: 11.5rem;
+    border-radius: 20px;
+}
+
+.english-about-us-intro-box-title {
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding-top: 0.8rem;
+}
+
+.english-about-us-intro-box-text {
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding-top: 0.7rem;
+    padding-left:0.5rem;
+    padding-right: 0.5rem;
+}
+
+#english-about-us-main-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+
+.english-about-us-main-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 55rem;
+    gap: 1.5rem
+}
+
+.english-about-us-main-item-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    gap: 0.8rem;
+}
+
+.english-about-us-main-item-title {
+    font-size: 2.8rem;
+}
+
+.english-about-us-main-item-text {
+    font-size: 1.4rem;
+}
+
+.red-text {
+    color: darkred;
+}
+
+.green-text {
+    color: darkgreen;
+}
+
+.english-about-us-main-item-image {
+    border-radius: 25px;
+}
