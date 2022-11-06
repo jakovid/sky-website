@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/EnglishHomeCTA.css";
+import "../../../styles/english/home/EnglishHomeCTA.css";;
 
 export default function EnglishHomeCTA() {
     return(

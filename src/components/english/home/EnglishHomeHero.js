@@ -1,6 +1,6 @@
 import React from "react";
-import SkyLogo2 from "../images/SkyLogo2.webp";
-import '../styles/EnglishHomeHero.css';
+import SkyLogo2 from "../../../images/SkyLogo2.webp";
+import "../../../styles/english/home/EnglishHomeHero.css";;
 
 export default function EnglishHeroHome() {
     return(

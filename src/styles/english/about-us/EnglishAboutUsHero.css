@@ -1,0 +1,16 @@
+#english-about-us-hero-container {
+    background-color: pink;
+    background-image: url(../../../images/ClassPic5.webp);
+    background-size: cover;
+    margin-top: 0.4rem;
+    height: 23rem;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+    justify-content: center;
+}
+
+#english-about-us-hero-text {
+    color: white;
+    font-size: 3.5rem;
+}

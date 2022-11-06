@@ -1,7 +1,7 @@
 import React from "react";
-import '../styles/EnglishHeader.css';
-import USAflag from '../images/USAflag.svg';
-import SkyLogo from '../images/SkyLogo.webp';
+import '../../styles/english/EnglishHeader.css';
+import USAflag from '../../images/USAflag.svg';
+import SkyLogo from '../../images/SkyLogo.webp';
 
 export default function EnglishHeader() {
     return(
@@ -10,11 +10,11 @@ export default function EnglishHeader() {
                 <div id='header-wrapper-1'>
                     <img src={SkyLogo} id='english-header-logo' />
                     <div id='english-header-nav'>
-                        <div>Home</div>
-                        <div>About Us</div>
-                        <div>Our Team</div>
-                        <div>Our Classes</div>
-                        <div>Contact Us</div>
+                        <a href='./'>Home</a>
+                        <a href='./about-us'>About Us</a>
+                        <a>Our Team</a>
+                        <a>Our Classes</a>
+                        <a>Contact Us</a>
                     </div>
                     <div id='english-header-language'>
                         <img class='english-header-language-flag' src={USAflag} />
