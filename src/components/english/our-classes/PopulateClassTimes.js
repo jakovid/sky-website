@@ -1,4 +1,4 @@
-import { ClassTimes } from "../../../data/ClassTimes";
+import { ClassTimes } from "../../../data/ClassInfo";
 import React from "react";
 import ClassTime from "./ClassTime";
 

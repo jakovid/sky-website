@@ -27,4 +27,19 @@ let ClassTimes = [
     }
 ];
 
-export { ClassTimes };
+let SemesterTimes = [
+    {
+        name: 'Spring Semeseter',
+        start: 'February',
+        end: 'June',
+        id: uuidv4()
+    },
+    {
+        name: 'Fall Semeseter',
+        start: 'September',
+        end: 'January',
+        id: uuidv4()
+    }
+]
+
+export { ClassTimes, SemesterTimes };
