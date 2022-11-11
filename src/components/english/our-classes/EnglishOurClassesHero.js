@@ -1,5 +1,5 @@
 import React from "react";
-import '../../../styles/english/our-classes/EnglishOurClassesHero.css';
+import '../../../styles/our-classes/OurClassesHero.css';
 
 export default function EnglishOurClassesHero() {
     return(

@@ -1,7 +1,7 @@
 import React from "react";
 import SkyLogo2 from '../../images/SkyLogo2.webp';
 import FacebookLogo from '../../images/FacebookLogo.webp';
-import "../../styles/english/EnglishFooter.css";
+import "../../styles/Footer.css";
 
 export default function EnglishFooter(){
     return(

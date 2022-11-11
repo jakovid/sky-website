@@ -1,6 +1,6 @@
 import React from "react";
 import PopulateEnglishTeachers from "./PopulaterEnglishTeachers";
-import '../../../styles/english/our-team/EnglishOurTeamEnglishTeachers.css';
+import '../../../styles/our-team/OurTeamEnglishTeachers.css';
 
 export default function EnglishOurTeamEnglishTeachers() {
     return(

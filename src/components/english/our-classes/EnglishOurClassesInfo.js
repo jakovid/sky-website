@@ -1,7 +1,7 @@
 import React from "react";
 import PopulateClassTime from "./PopulateClassTimes";
 import PopulateSemesters from "./PopulateSemesters";
-import '../../../styles/english/our-classes/EnglishOurClassesInfo.css';
+import '../../../styles/our-classes/OurClassesInfo.css';
 
 export default function EnglishOurClassesInfo(){
     return(

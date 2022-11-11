@@ -2,7 +2,7 @@ import React from "react";
 import ClassPic1 from "../../../images/ClassPic1.webp";
 import ClassPic2 from "../../../images/ClassPic2.webp";
 import ClassPic3 from "../../../images/ClassPic3.webp";
-import "../../../styles/english/home/EnglishHomeBody.css";
+import "../../../styles/home/HomeBody.css";
 
 export default function EnglishHomeBody() {
     return(

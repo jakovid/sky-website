@@ -9,9 +9,9 @@ export default function RouteSwitch(){
         <BrowserRouter>
         <Routes>
             <Route path='/' element={<EnglishHome />} />
-            <Route path='/about-us' element={<EnglishAboutUs />} />
-            <Route path='/our-team' element={<EnglishOurTeam />} />
-            <Route path="/our-classes" element={<EnglishOurClasses />} />
+            <Route path='/en/about-us' element={<EnglishAboutUs />} />
+            <Route path='/en/our-team' element={<EnglishOurTeam />} />
+            <Route path="/en/our-classes" element={<EnglishOurClasses />} />
         </Routes>
         </BrowserRouter>
     )

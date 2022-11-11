@@ -1,6 +1,6 @@
 import React from "react";
 
-import '../../../styles/english/about-us/EnglishAboutUsHero.css';
+import '../../../styles/about-us/AboutUsHero.css';
 
 export default function EnglishAboutUsHero() {
     return(

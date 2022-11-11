@@ -1,6 +1,6 @@
 import React from "react";
 import ClassPic10 from '../../../images/ClassPic10.webp';
-import '../../../styles/english/our-classes/EnglishOurClassesIntro.css';
+import '../../../styles/our-classes/OurClassesIntro.css';
 
 export default function EnglishOurClassesIntro() {
     return(

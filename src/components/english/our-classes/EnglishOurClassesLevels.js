@@ -1,6 +1,6 @@
 import React from "react";
 import PopulateClassLevel from "./PopulateClassLevels";
-import '../../../styles/english/our-classes/EnglishOurClassesLevels.css';
+import '../../../styles/our-classes/OurClassesLevels.css';
 
 export default function EnglishOurClassesLevels() {
     return (

@@ -1,6 +1,6 @@
 import React from "react";
 import SkyBanner from '../../../images/SkyBanner.webp';
-import '../../../styles/english/our-team/EnglishOurTeamInfo.css';
+import '../../../styles/our-team/OurTeamInfo.css';
 
 export default function EnglishOurTeamInfo(){
     return(

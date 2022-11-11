@@ -1,7 +1,7 @@
 import React from "react";
 import ClassPic6 from "../../../images/ClassPic6.webp";
 import ClassPic7 from "../../../images/ClassPic7.webp";
-import '../../../styles/english/about-us/EnglishAboutUsBody.css'
+import '../../../styles/about-us/AboutUsBody.css'
 
 export default function EnglishAboutUsBody() {
     return(

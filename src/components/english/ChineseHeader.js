@@ -11,9 +11,9 @@ export default function EnglishHeader() {
                     <img src={SkyLogo} id='english-header-logo' />
                     <div id='english-header-nav'>
                         <a href='./'>Home</a>
-                        <a href='../en/about-us'>About Us</a>
-                        <a href='../en/our-team'>Our Team</a>
-                        <a href='../en/our-classes'>Our Classes</a>
+                        <a href='./about-us'>About Us</a>
+                        <a href='./our-team'>Our Team</a>
+                        <a href='./our-classes'>Our Classes</a>
                         <a>Contact Us</a>
                     </div>
                     <div id='english-header-language'>

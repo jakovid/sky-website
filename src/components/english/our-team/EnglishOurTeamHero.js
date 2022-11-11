@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../styles/english/our-team/EnglishOurTeamHero.css"
+import "../../../styles/our-team/OurTeamHero.css"
 
 
 

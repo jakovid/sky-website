@@ -14,7 +14,7 @@
     width:100vw;
     height:23.3rem;
     background-color: lightgray;
-    background-image: url('../../../images/SkylineBG.webp');
+    background-image: url('../../images/SkylineBG.webp');
     background-position: 150% 50%;
     background-size: cover;
     resize:both;
