@@ -1,6 +1,6 @@
-import ClassPic11 from '../images/ClassPic11';
-import ClassPic12 from '../images/ClassPic12';
-import ClassPic13 from '../images/ClassPic13';
+import ClassPic11 from '../images/ClassPic11.webp';
+import ClassPic12 from '../images/ClassPic12.webp';
+import ClassPic13 from '../images/ClassPic13.webp';
 import { v4 as uuidv4 } from 'uuid';
 
 let ClassLevels = [
