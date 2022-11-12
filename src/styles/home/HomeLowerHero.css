@@ -1,4 +1,4 @@
-#english-home-lower-hero-container {
+#home-lower-hero-container {
     background-image: url('../../images/ClassPic4.webp');
     background-size: cover;
     width: 100vw;
@@ -10,7 +10,7 @@
     margin-top: 1.6rem;
 }
 
-#english-home-lower-hero-text {
+#home-lower-hero-text {
     color: white;
     font-size: 3rem;
     font-weight: bold;

@@ -1,23 +1,23 @@
 import React from "react";
 import "../../../styles/home/HomeCTA.css";;
 
-export default function EnglishHomeCTA() {
+export default function ChineseHomeCTA() {
     return(
         <div id='home-cta-container'>
             <div id='home-cta-text'>
-                New English Class January 2023. Register Now!
+                2023年1月 <br />
+                開始最新課程！
             </div>
 
             <div id='home-cta-email-wrapper'>
 
                 <div id='home-cta-email-container'>
-                    <input id='home-cta-email-input'  type='text' placeholder='Email' />
-                    <button id='home-cta-submit-button' type='submit'>SUBMIT</button>
+                    <input id='home-cta-email-input'  type='text' placeholder='電子郵件' />
+                    <button id='home-cta-submit-button' type='submit'>提交</button>
                 </div>
 
                 <div id='home-cta-email-subtext'>
-                    We'll get in touch with you very soon. 
-                    Thank you!
+                    我們會盡快和您聯繫，謝謝!
                 </div>
 
             </div>

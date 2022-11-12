@@ -1,11 +1,11 @@
-#english-hero-wrapper {
+#hero-wrapper {
     display: flex;
     background-color: lightgray;
     height:44vh;
     justify-content: center;
 }
 
-#english-hero-container {
+#hero-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 3fr;
@@ -20,13 +20,13 @@
     resize:both;
 }
 
-#english-hero-logo {
+#hero-logo {
     padding-top: 1.9rem;
     padding-bottom: 1.5rem;
     justify-content: left;
 }
 
-#english-hero-title {
+#hero-title {
     display: flex;
     padding-top: 3.5vh;
     height: 100%;

@@ -24,7 +24,7 @@
     gap: 3rem;
 }
 
-#english-header-logo {
+#header-logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,11 +32,10 @@
     height: 4.33rem;
 }
 
-#english-header-nav{
+#header-nav{
     display: flex;
     flex-direction: row;
     justify-content:  space-between;
-    background-color: gray;
 }
 
 #english-header-language {

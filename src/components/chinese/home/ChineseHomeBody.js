@@ -4,44 +4,39 @@ import ClassPic2 from "../../../images/ClassPic2.webp";
 import ClassPic3 from "../../../images/ClassPic3.webp";
 import "../../../styles/home/HomeBody.css";
 
-export default function EnglishHomeBody() {
+export default function ChineseHomeBody() {
     return(
         <div id="home-body-container">
             <div className='home-body-item'>
                 <img className='home-body-image' src={ClassPic1} />
                 <div className='home-body-title' >
-                    Taught by Qualified Native English Speakers
+                    對教學保有熱忱英文母語者的教師群
                 </div>
                 <div className='home-body-text'>
-                We believe that happy teachers are more productive and creative. 
-                We want our teachers to want to come and teach. 
-                Our teachers bring a high-energy approach to the classroom every 
-                day to make classes fly by. Every class is a unique experience.
+                    我們的教師團隊每天都為課堂帶來滿滿的活力，並從裡到外真心的關懷每一位學生。
+                    開心生動的上課時光如飛每堂課都是一次獨特的體驗。
                 </div>
             </div>
 
             <div className='home-body-item'>
                 <img className='home-body-image' src={ClassPic2} />
                 <div className='home-body-title' >
-                    Engaging Academic Environment
+                    學術環境
                 </div>
                 <div className='home-body-text'>
-                For 14 years, we've been about having fun while learning English. 
-                In order to have fun while learning, kids need to feel safe, 
-                confident and able to make a mistake and not worry about it. 
-                Our classes are small with multi-media in all of them.
+                    學習不止於課本，利用有趣的影片,超 high 的課堂遊戲，
+                    教室永遠充斥著笑聲，孩子們把握每一次上課的機會。
                 </div>
             </div>
 
             <div className='home-body-item'>
                 <img className='home-body-image' src={ClassPic3} />
                 <div className='home-body-title' >
-                    Custom, Relevant Class Content
+                    最新課程內容
                 </div>
                 <div className='home-body-text'>
-                Back in 2008, we believed that the English books used in Taiwanese 
-                classrooms were outdated, irrelevant and boring. 
-                So, we decided to create our own Sky books. (Phonics, Reading, Grammar)
+                    採用自編的書籍 自然發音，聽力, 閱讀, 並持續更新版本。
+                    高階班學生則搭配常春藤雜誌進行多元化教學。
                 </div>
             </div>
 

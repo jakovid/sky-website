@@ -1,10 +1,10 @@
 import React from "react";
 import "../../../styles/home/HomeLowerHero.css";
 
-export default function EnglishHomeLowerHero() {
+export default function ChineseHomeLowerHero() {
     return(
         <div id='home-lower-hero-container'>
-            <div id='home-lower-hero-text'>Where they study matters!</div>
+            <div id='home-lower-hero-text'>選擇對的地方學習很重要</div>
         </div>
     )
 }
