@@ -1,4 +1,4 @@
-#english-our-team-info-container {
+#our-team-info-container {
     margin-top: 5.9rem;
     display: flex;
     align-items: center;
@@ -6,21 +6,21 @@
     gap: 2rem;
 }
 
-#english-our-team-info-image {
+#our-team-info-image {
     border-radius: 25px;
 }
 
-#english-our-team-info-text-box {
+#our-team-info-text-box {
     width: 27rem;
     text-align: center;
 }
 
-#english-our-team-info-title {
+#our-team-info-title {
     font-size: 2.5rem;
     color: darkred;
 }
 
-#english-our-team-info-text {
+#our-team-info-text {
     padding-top: 0.8rem;
     font-size: 1.4rem;
     color: darkgreen;

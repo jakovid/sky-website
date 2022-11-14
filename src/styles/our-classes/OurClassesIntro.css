@@ -1,11 +1,11 @@
-#english-our-classes-intro-container {
+#our-classes-intro-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#english-our-classes-intro-box {
+#our-classes-intro-box {
     display: flex;
     flex-direction: row;
     width: 58.5rem;
@@ -14,17 +14,17 @@
     gap: 0.8rem;
 }
 
-#english-our-classes-intro-image {
+#our-classes-intro-image {
     height: 18.5rem;
     border-radius: 25px;
 }
 
-#english-our-classes-intro-title {
+#our-classes-intro-title {
     font-size: 2.5rem;
     font-weight: bold;
 }
 
-#english-our-classes-intro-text {
+#our-classes-intro-text {
     font-size: 1.36rem;
     font-weight: bold;
     padding-top:0.5rem;

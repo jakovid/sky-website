@@ -2,10 +2,10 @@ import React from "react";
 
 import '../../../styles/about-us/AboutUsHero.css';
 
-export default function EnglishAboutUsHero() {
+export default function ChineseAboutUsHero() {
     return(
         <div id='about-us-hero-container'>
-            <div id='about-us-hero-text'>ABOUT US</div>
+            <div id='about-us-hero-text'>關於我們</div>
         </div>
     )
 }

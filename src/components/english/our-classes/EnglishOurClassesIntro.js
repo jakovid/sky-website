@@ -4,12 +4,12 @@ import '../../../styles/our-classes/OurClassesIntro.css';
 
 export default function EnglishOurClassesIntro() {
     return(
-        <div id='english-our-classes-intro-container'>
-            <div id='english-our-classes-intro-box'>
-                <img id='english-our-classes-intro-image' src={ ClassPic10 } />
-                <div id='english-our-classes-intro-text-box'>
-                    <div id='english-our-classes-intro-title'>Class Length</div>
-                    <div id='english-our-classes-intro-text'>
+        <div id='our-classes-intro-container'>
+            <div id='our-classes-intro-box'>
+                <img id='our-classes-intro-image' src={ ClassPic10 } />
+                <div id='our-classes-intro-text-box'>
+                    <div id='our-classes-intro-title'>Class Length</div>
+                    <div id='our-classes-intro-text'>
                         Classes are twice a week and 2.5 hours long at the times listed 
                         below. Our classes are held in semester long periods over the 
                         course of 4 to 5 months, either September to January or January 

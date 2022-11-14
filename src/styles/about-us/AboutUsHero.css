@@ -1,4 +1,4 @@
-#english-about-us-hero-container {
+#about-us-hero-container {
     background-color: pink;
     background-image: url(../../images/ClassPic5.webp);
     background-size: cover;
@@ -10,7 +10,7 @@
     justify-content: center;
 }
 
-#english-about-us-hero-text {
+#about-us-hero-text {
     color: white;
     font-size: 3.5rem;
 }

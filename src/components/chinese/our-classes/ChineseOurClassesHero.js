@@ -1,10 +1,10 @@
 import React from "react";
 import '../../../styles/our-classes/OurClassesHero.css';
 
-export default function EnglishOurClassesHero() {
+export default function ChineseOurClassesHero() {
     return(
         <div id='our-classes-hero-container'>
-            <div id='our-classes-hero-text'>OUR CLASSES</div>
+            <div id='our-classes-hero-text'>我們的課程</div>
         </div>
     )
 }

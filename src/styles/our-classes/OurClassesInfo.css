@@ -1,16 +1,16 @@
-#english-our-classes-class-times-container {
+#our-classes-class-times-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#english-our-classes-box {
+#our-classes-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
 }
 
-#english-our-classes-title {
+#our-classes-title {
     font-size: 2.8rem;
     font-weight: bold;
     color: darkred;

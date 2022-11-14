@@ -1,10 +1,10 @@
-#english-our-team-english-teachers-container {
+#our-team-english-teachers-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#english-our-team-english-teachers {
+#our-team-english-teachers {
     display: flex;
     flex-direction: row;
     width: 100%;
