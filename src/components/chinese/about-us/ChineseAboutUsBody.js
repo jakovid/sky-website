@@ -13,8 +13,8 @@ export default function ChineseAboutUsBody() {
                     <div className='about-us-intro-box'>
                         <div className='about-us-intro-box-title'>小班制教學</div>
                         <div className='about-us-intro-box-text'>
-                            我們秉持著班級小班制的制度，讓每一位學生得到更多的機會練習口說和參與課程，
-                            以不超過12人為一班，每周兩堂兩個半小時的課程。
+                            我們秉持著班級小班制的制度,讓每一位學生得到更多的機會練習口說和參與課程,
+                            以不超過12人為一班,每周兩堂兩個半小時的課程。
                         </div>
                     </div>
 
