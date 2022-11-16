@@ -1,5 +1,5 @@
 #home-body-container {
-    padding-top: 3rem;
+    padding-top: 8rem;
     padding-bottom: 2.5rem;
     display: flex;
     flex-direction: row;
@@ -20,13 +20,15 @@
 }
 
 .home-body-title {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: bold;
-    color: rgb(75, 75, 197);
+    color:  rgb(34, 70, 187);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .home-body-text {
     padding-top: 1rem;
     font-weight: bold;
-    font-size: 1.39rem;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

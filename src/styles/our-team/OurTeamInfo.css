@@ -12,6 +12,7 @@
 
 #our-team-info-text-box {
     width: 27rem;
+    min-width: 27rem;
     text-align: center;
 }
 

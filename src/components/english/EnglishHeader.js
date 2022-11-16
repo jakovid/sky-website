@@ -10,7 +10,7 @@ export default function EnglishHeader() {
                 <div id='header-wrapper-1'>
                     <img src={SkyLogo} id='header-logo' />
                     <div id='header-nav'>
-                        <a href='./'>Home</a>
+                        <a href='../en/home'>Home</a>
                         <a href='../en/about-us'>About Us</a>
                         <a href='../en/our-team'>Our Team</a>
                         <a href='../en/our-classes'>Our Classes</a>

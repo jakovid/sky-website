@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: white;
-    background-color: darkblue;
+    background-color: rgb(34, 70, 187);
     height: 13.4rem;
     padding-top:1.5rem;
     padding-left: 7rem;
@@ -12,6 +12,7 @@
 
 #home-cta-text {
     font-size: 3.3rem;
+    min-width: 28rem;
 }
 
 #home-cta-email-container {
