@@ -5,7 +5,7 @@ export default function EnglishHomeCTA() {
     return(
         <div id='home-cta-container'>
             <div id='home-cta-text'>
-                New English Classes January 2023. Register Now!
+                New English Classes January 2023. <br/> Register Now!
             </div>
 
             <div id='home-cta-email-wrapper'>
