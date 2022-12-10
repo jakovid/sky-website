@@ -38,7 +38,7 @@
     justify-content:  space-between;
 }
 
-#english-header-language {
+#header-language {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -46,7 +46,7 @@
     background-color: pink;
 }
 
-.english-header-language-flag {
+.header-language-flag {
     object-fit: cover;
     object-position: 30% 70%;
     height: 3rem;

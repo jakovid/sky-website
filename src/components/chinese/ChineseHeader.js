@@ -16,8 +16,8 @@ export default function ChineseHeader() {
                         <a href='./our-classes'>我們的課程</a>
                         <a>聯繫我們</a>
                     </div>
-                    <div id='english-header-language'>
-                        <img class='english-header-language-flag' src={TWFlag} />
+                    <div id='header-language'>
+                        <img className='english-header-language-flag' src={TWFlag} />
                         <div>中文</div>
                         <div>^</div>
                     </div>
