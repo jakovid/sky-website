@@ -16,10 +16,10 @@ export default function RouteSwitch(){
             <Route path='/about-us' element={<ChineseAboutUs />} />
             <Route path='/our-team' element={<ChineseOurTeam />} />
             <Route path='/our-classes' element={<ChineseOurClasses />} />
-            <Route path='/en/home' element={<EnglishHome />} />
-            <Route path='/en/about-us' element={<EnglishAboutUs />} />
-            <Route path='/en/our-team' element={<EnglishOurTeam />} />
-            <Route path="/en/our-classes" element={<EnglishOurClasses />} />
+            <Route path='/home/en' element={<EnglishHome />} />
+            <Route path='/about-us/en' element={<EnglishAboutUs />} />
+            <Route path='/our-team/en' element={<EnglishOurTeam />} />
+            <Route path="/our-classes/en" element={<EnglishOurClasses />} />
         </Routes>
         </BrowserRouter>
     )

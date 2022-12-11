@@ -17,9 +17,11 @@ export default function ChineseHeader() {
                         <a>聯繫我們</a>
                     </div>
                     <div id='header-language'>
+                        <a href='./home/en'>
                         <img className='english-header-language-flag' src={TWFlag} />
                         <div>中文</div>
                         <div>^</div>
+                        </a>
                     </div>
                 </div>
             </div>
