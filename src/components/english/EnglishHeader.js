@@ -1,6 +1,6 @@
 import React from "react";
 import '../../styles/Header.css';
-import USAflag from '../../images/USAflag.svg';
+import TWflag from '../../images/TWFlag.png';
 import SkyLogo from '../../images/SkyLogo.webp';
 
 export default function EnglishHeader() {
@@ -16,11 +16,10 @@ export default function EnglishHeader() {
                         <a href='/our-classes/en'>Our Classes</a>
                         <a href='/contact-us/en'>Contact Us</a>
                     </div>
-                    <div id='header-language'>
-                        <a href='../'>
-                        <img class='header-language-flag' src={USAflag} />
-                        <div>English</div>
-                        <div>^</div>
+                    <div>
+                        <a href='../' id='header-language'>
+                        <img class='header-language-flag' src={TWflag} />
+                        <div>中文</div>
                         </a>
                     </div>
                 </div>

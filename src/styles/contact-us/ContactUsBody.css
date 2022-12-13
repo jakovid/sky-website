@@ -20,19 +20,19 @@
     color: darkblue;
 }
 
-input, select, textarea {
+input.form-input, select.form-input, textarea.form-input {
     background-color: lightgray;
     padding: 1rem;
     border-radius: 25px;
     border: none;
 }
 
-input:hover, input:focus, select:hover, select:focus, textarea:hover, textarea:focus {
+input.form-input:hover, input.form-input:focus, select.form-input:hover, select.form-input:focus, textarea.form-input:hover, textarea.form-input:focus {
     background-color: white;
     border: black solid 1px;
 }
 
-button {
+button.contact-us-submit {
     background-color: darkblue;
     color: white;
     padding: 1rem;
@@ -44,4 +44,25 @@ button {
 
 .message-box {
     grid-column: 1 / 3;
+}
+
+.contact-us-body-right {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.contact-us-body-right-item {
+    background-color: white;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 20px;
+    color: darkgray;
+    font-weight: bold;
+}
+
+.contact-us-body-right-item-title {
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color: black;
 }

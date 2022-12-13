@@ -42,11 +42,6 @@ let TaiwanTeachers = [
         name: 'Mei-Jia',
         picture: meijiaPic,
         id: uuidv4()
-    },
-    {
-        name: 'Irene',
-        picture: null,
-        id: uuidv4()
     }
 ];
 
