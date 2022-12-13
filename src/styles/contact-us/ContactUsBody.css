@@ -1,0 +1,47 @@
+.contact-us-body-container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 2rem;
+    background-color: lightgray;
+}
+
+.contact-us-body-left-form {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 1.5rem;
+    border-radius: 25px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    color: darkblue;
+}
+
+input, select, textarea {
+    background-color: lightgray;
+    padding: 1rem;
+    border-radius: 25px;
+    border: none;
+}
+
+input:hover, input:focus, select:hover, select:focus, textarea:hover, textarea:focus {
+    background-color: white;
+    border: black solid 1px;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 1rem;
+    border-radius: 25px;
+    border: none;
+    width: 10rem;
+    font-weight: bold;
+}
+
+.message-box {
+    grid-column: 1 / 3;
+}

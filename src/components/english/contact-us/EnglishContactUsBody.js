@@ -1,4 +1,5 @@
 import React from "react";
+import '../../../styles/contact-us/ContactUsBody.css';
 
 export default function EnglishContactUsBody(){
     return(
@@ -13,20 +14,30 @@ export default function EnglishContactUsBody(){
                     </div>
                 </div>
                 <form className="contact-us-body-left-form">
-                    <label for='name'>Name *</label>
-                    <input type='text' id='name' placeholder="Full Name" required/>
-                    <label for='email'>Email *</label>
-                    <input type='email' id='email' placeholder="example@youremail.com" required/>
-                    <label for='phone'>Phone Number</label>
-                    <input type='tel' id='phone' placeholder="123-456-7890"/>
-                    <label for='classes'>Classes *</label>
-                    <select id='classes' required>
-                        <option value='beginner'>Beginner Classes 初階班</option>
-                        <option value='intermediate'>Intermediate Classes 中階班</option>
-                        <option value='advanced'>Advanced Classes 高階班</option>
-                    </select>
-                    <label for='message'>Message</label>
-                    <input type='text' placeholder="Write your message here..." />
+                    <div className="form-item">
+                        <label for='name'>Name *</label>
+                        <input type='text' id='name' placeholder="Full Name" required/>
+                    </div>
+                    <div className="form-item">
+                        <label for='email'>Email *</label>
+                        <input type='email' id='email' placeholder="example@youremail.com" required/>
+                    </div>
+                    <div className="form-item">
+                        <label for='phone'>Phone Number</label>
+                        <input type='tel' id='phone' placeholder="123-456-7890"/>
+                    </div>
+                    <div className="form-item">
+                        <label for='classes'>Classes *</label>
+                        <select id='classes' required>
+                            <option value='beginner'>Beginner Classes 初階班</option>
+                            <option value='intermediate'>Intermediate Classes 中階班</option>
+                            <option value='advanced'>Advanced Classes 高階班</option>
+                        </select>
+                    </div>
+                    <div className="form-item message-box">
+                        <label for='message'>Message</label>
+                        <textarea type='text' rows='7' id='message' placeholder="Write your message here..." />
+                    </div>
                     <button type='submit'>SUBMIT</button>
                 </form>
             </div>
