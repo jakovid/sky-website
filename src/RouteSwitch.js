@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import EnglishHome from "./pages/EnglishHome";
 import EnglishAboutUs from "./pages/EnglishAboutUs";
 import EnglishOurTeam from "./pages/EnglishOurTeam";
@@ -11,17 +11,17 @@ import ChineseOurClasses from "./pages/ChineseOurClasses";
 
 export default function RouteSwitch(){
     return(
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <BrowserRouter>
         <Routes>
-            <Route path='/' element={<ChineseHome />} />
-            <Route path='/about-us' element={<ChineseAboutUs />} />
-            <Route path='/our-team' element={<ChineseOurTeam />} />
-            <Route path='/our-classes' element={<ChineseOurClasses />} />
-            <Route path='/home/en' element={<EnglishHome />} />
-            <Route path='/about-us/en' element={<EnglishAboutUs />} />
-            <Route path='/our-team/en' element={<EnglishOurTeam />} />
-            <Route path="/our-classes/en" element={<EnglishOurClasses />} />
-            <Route path="/contact-us/en" element={<EnglishContactUs />} />
+            <Route exact path='/' element={<ChineseHome />} />
+            <Route exact path='/about-us' element={<ChineseAboutUs />} />
+            <Route exact path='/our-team' element={<ChineseOurTeam />} />
+            <Route exact path='/our-classes' element={<ChineseOurClasses />} />
+            <Route exact path='/home/en' element={<EnglishHome />} />
+            <Route exact path='/about-us/en' element={<EnglishAboutUs />} />
+            <Route exact path='/our-team/en' element={<EnglishOurTeam />} />
+            <Route exact path="/our-classes/en" element={<EnglishOurClasses />} />
+            <Route exact path="/contact-us/en" element={<EnglishContactUs />} />
         </Routes>
         </BrowserRouter>
     )
