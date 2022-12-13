@@ -11,7 +11,7 @@ import ChineseOurClasses from "./pages/ChineseOurClasses";
 
 export default function RouteSwitch(){
     return(
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
             <Route path='/' element={<ChineseHome />} />
             <Route path='/about-us' element={<ChineseAboutUs />} />
