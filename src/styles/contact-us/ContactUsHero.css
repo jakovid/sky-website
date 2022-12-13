@@ -1,0 +1,14 @@
+.contact-us-hero-container {
+    background-image: url(../../images/ClassPic14.webp);
+    background-size: cover;
+    height: 18.5rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0.4rem;
+    justify-content: center;
+}
+
+.contact-us-hero-text {
+    color: darkblue;
+    font-size: 3.5rem;
+}

@@ -3,6 +3,7 @@ import EnglishHome from "./pages/EnglishHome";
 import EnglishAboutUs from "./pages/EnglishAboutUs";
 import EnglishOurTeam from "./pages/EnglishOurTeam";
 import EnglishOurClasses from "./pages/EnglishOurClasses";
+import EnglishContactUs from "./pages/EnglishContactUs";
 import ChineseHome from "./pages/ChineseHome";
 import ChineseAboutUs from "./pages/ChineseAboutUs";
 import ChineseOurTeam from "./pages/ChineseOurTeam";
@@ -20,6 +21,7 @@ export default function RouteSwitch(){
             <Route path='/about-us/en' element={<EnglishAboutUs />} />
             <Route path='/our-team/en' element={<EnglishOurTeam />} />
             <Route path="/our-classes/en" element={<EnglishOurClasses />} />
+            <Route path="/contact-us/en" element={<EnglishContactUs />} />
         </Routes>
         </BrowserRouter>
     )

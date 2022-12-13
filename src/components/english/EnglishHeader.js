@@ -14,7 +14,7 @@ export default function EnglishHeader() {
                         <a href='/about-us/en'>About Us</a>
                         <a href='/our-team/en'>Our Team</a>
                         <a href='/our-classes/en'>Our Classes</a>
-                        <a>Contact Us</a>
+                        <a href='/contact-us/en'>Contact Us</a>
                     </div>
                     <div id='header-language'>
                         <a href='../'>
