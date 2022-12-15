@@ -14,7 +14,7 @@ export default function ChineseHeader() {
                         <a href='./about-us'>關於我們</a>
                         <a href='./our-team'>我們的團隊</a>
                         <a href='./our-classes'>我們的課程</a>
-                        <a>聯繫我們</a>
+                        <a href='./contact-us'>聯繫我們</a>
                     </div>
                     <div>
                         <a href='./home/en' id='header-language'>
