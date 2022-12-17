@@ -10,11 +10,11 @@ export default function ChineseHeader() {
                 <div id='header-wrapper-1'>
                     <img src={SkyLogo} id='header-logo' />
                     <div id='header-nav'>
-                        <a href='./'>主頁</a>
-                        <a href='./about-us'>關於我們</a>
-                        <a href='./our-team'>我們的團隊</a>
-                        <a href='./our-classes'>我們的課程</a>
-                        <a href='./contact-us'>聯繫我們</a>
+                        <a href='./' className='header-btn chinese'>主頁</a>
+                        <a href='./about-us' className='header-btn chinese'>關於我們</a>
+                        <a href='./our-team' className='header-btn chinese'>我們的團隊</a>
+                        <a href='./our-classes' className='header-btn chinese'>我們的課程</a>
+                        <a href='./contact-us' className='header-btn chinese'>聯繫我們</a>
                     </div>
                     <div>
                         <a href='./home/en' id='header-language'>

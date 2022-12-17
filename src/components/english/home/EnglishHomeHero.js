@@ -7,7 +7,7 @@ export default function EnglishHeroHome() {
         <div id='hero-wrapper'>
             <div id='hero-container'>
                 <img id='hero-logo' src={SkyLogo2} />
-                <div id='hero-title'>WHY LEARN WITH US?</div>
+                <div id='hero-title' className='english'>WHY LEARN WITH US?</div>
             </div>
         </div>
     )

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Raleway:wght@600&display=swap');
+
 #home-body-container {
     padding-top: 8rem;
     padding-bottom: 2.5rem;
@@ -23,12 +25,12 @@
     font-size: 1.6rem;
     font-weight: bold;
     color:  rgb(34, 70, 187);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Mulish', sans-serif;
 }
 
 .home-body-text {
     padding-top: 1rem;
     font-weight: bold;
     font-size: 1.2rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Mulish', sans-serif;
 }

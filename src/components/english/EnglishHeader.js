@@ -10,11 +10,11 @@ export default function EnglishHeader() {
                 <div id='header-wrapper-1'>
                     <img src={SkyLogo} id='header-logo' />
                     <div id='header-nav'>
-                        <a href='/home/en'>Home</a>
-                        <a href='/about-us/en'>About Us</a>
-                        <a href='/our-team/en'>Our Team</a>
-                        <a href='/our-classes/en'>Our Classes</a>
-                        <a href='/contact-us/en'>Contact Us</a>
+                        <a href='/home/en' className='header-btn english'>Home</a>
+                        <a href='/about-us/en' className='header-btn english'>About Us</a>
+                        <a href='/our-team/en' className='header-btn english'>Our Team</a>
+                        <a href='/our-classes/en' className='header-btn english'>Our Classes</a>
+                        <a href='/contact-us/en' className='header-btn english'>Contact Us</a>
                     </div>
                     <div>
                         <a href='../' id='header-language'>

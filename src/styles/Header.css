@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Raleway:wght@600&display=swap');
+
 * {
     margin: 0;
 }
@@ -38,12 +40,32 @@
     justify-content:  space-between;
 }
 
+.header-btn {
+    text-decoration: none;
+    color: black;
+
+}
+
+.header-btn.english {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
 #header-language {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 9rem;
     gap: 1rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+#header-language:hover {
+    background: darkred;
+    color: white;
+    border-radius: 25px;
 }
 
 .header-language-flag {
