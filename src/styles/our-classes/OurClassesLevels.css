@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Raleway:wght@600&display=swap');
+
 #our-classes-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3rem;
+    font-family: 'Mulish', sans-serif;
 }
 
 .class-level-item {

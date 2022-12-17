@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Raleway:wght@600&display=swap');
+
 #our-classes-intro-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Mulish', sans-serif;
 }
 
 #our-classes-intro-box {
@@ -25,7 +28,7 @@
 }
 
 #our-classes-intro-text {
-    font-size: 1.36rem;
+    font-size: 1.3rem;
     font-weight: bold;
     padding-top:0.5rem;
 }

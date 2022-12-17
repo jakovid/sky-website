@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
 .contact-us-hero-container {
     background-image: url(../../images/ClassPic14.webp);
     background-size: cover;
@@ -6,6 +8,7 @@
     align-items: center;
     margin-top: 0.4rem;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact-us-hero-text {
