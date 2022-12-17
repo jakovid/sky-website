@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
 #our-team-hero-container {
     margin-top: 0.4rem;
     height: 29.6rem;
@@ -10,4 +12,5 @@
     color: darkblue;
     text-shadow: white 0px 0px 5px;
     font-size: 8rem;
+    font-family: 'Montserrat', sans-serif;
 }

@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Raleway:wght@600&display=swap');
+
 #our-team-english-teachers-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Mulish', sans-serif;
 }
 
 #our-team-english-teachers {
@@ -36,6 +39,6 @@
     flex-wrap: wrap;
     width: 19rem;
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     padding-top: 0.8rem;
 }

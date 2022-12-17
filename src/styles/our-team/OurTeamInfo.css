@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Raleway:wght@600&display=swap');
+
 #our-team-info-container {
     margin-top: 5.9rem;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    font-family: 'Mulish', sans-serif;
 }
 
 #our-team-info-image {
@@ -23,6 +26,6 @@
 
 #our-team-info-text {
     padding-top: 0.8rem;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: darkgreen;
 }

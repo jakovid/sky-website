@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
 
 #home-lower-hero-container {
     background-image: url('../../images/ClassPic4.webp');
@@ -14,7 +14,7 @@
 
 #home-lower-hero-text {
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
-    font-family: 'Neucha', cursive;
+    font-family: 'Kalam', cursive;
 }

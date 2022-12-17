@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
 #about-us-hero-container {
     background-color: pink;
     background-image: url(../../images/ClassPic5.webp);
@@ -13,4 +15,6 @@
 #about-us-hero-text {
     color: white;
     font-size: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 4px black;
 }
