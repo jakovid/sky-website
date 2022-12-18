@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
+@font-face {
+    font-family: chineseFont;
+    src: url('../../styles/fonts/SentyWEN2017.ttf');
+}
+
 #about-us-hero-container {
     background-color: pink;
     background-image: url(../../images/ClassPic5.webp);
@@ -17,4 +22,8 @@
     font-size: 3.5rem;
     font-family: 'Montserrat', sans-serif;
     text-shadow: 2px 2px 4px black;
+}
+
+#about-us-hero-text.chinese {
+    font-family: chineseFont;
 }
