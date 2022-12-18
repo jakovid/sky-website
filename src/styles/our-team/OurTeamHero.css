@@ -9,8 +9,8 @@
     display: flex;
     justify-content: right;
     padding-right: 4rem;
-    color: darkblue;
-    text-shadow: white 0px 0px 5px;
+    color: white;
+    text-shadow: black 2px 2px 6px;
     font-size: 8rem;
     font-family: 'Montserrat', sans-serif;
 }
