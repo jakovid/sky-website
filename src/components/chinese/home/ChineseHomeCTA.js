@@ -1,11 +1,12 @@
 import React from "react";
 import "../../../styles/home/HomeCTA.css";;
 
+
 export default function ChineseHomeCTA() {
     return(
         <div id='home-cta-container'>
-            <div id='home-cta-text'>
-                2023年1月 <br />
+            <div id='home-cta-text' className='chinese'>
+                <n className='number'>2023</n>年<n className='number'>1</n>月 <br />
                 開始最新課程！
             </div>
 
