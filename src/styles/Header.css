@@ -47,18 +47,27 @@
 .header-btn {
     text-decoration: none;
     color: darkred;
-
+    padding: 0.5rem;
 }
 
 .header-btn.english {
     font-family: 'Mulish', sans-serif;
     font-size: 1.2rem;
     text-align: center;
+    
+}
+
+.header-btn:hover, .header-btn:focus {
+    color: white;
+    background-color: darkred;
+    border-radius: 15px;
+    
 }
 
 .header-btn.chinese {
     font-family: chineseFont;
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    padding: 0.25rem;
 }
 
 #header-language {
