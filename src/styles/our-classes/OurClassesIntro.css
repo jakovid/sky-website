@@ -6,6 +6,8 @@
     justify-content: center;
     align-items: center;
     font-family: 'Mulish', sans-serif;
+    background-color: lightgray;
+    padding: 2rem 0rem 0rem 0rem;
 }
 
 #our-classes-intro-box {
@@ -15,6 +17,8 @@
     padding: 1rem;
     color: darkred;
     gap: 0.8rem;
+    background-color: white;
+    border-radius: 25px;
 }
 
 #our-classes-intro-image {
@@ -25,10 +29,12 @@
 #our-classes-intro-title {
     font-size: 2.5rem;
     font-weight: bold;
+
 }
 
 #our-classes-intro-text {
     font-size: 1.3rem;
     font-weight: bold;
     padding-top:0.5rem;
+    color: darkgreen;
 }

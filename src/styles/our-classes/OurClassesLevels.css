@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Raleway:wght@600&display=swap');
+@font-face {
+    font-family: chineseFont;
+    src: url('../../styles/fonts/SentyWEN2017.ttf');
+}
 
 #our-classes-container {
     display: flex;
@@ -6,13 +10,15 @@
     align-items: center;
     gap: 3rem;
     font-family: 'Mulish', sans-serif;
+    background-color: lightgray;
+    padding: 5rem 0rem 3rem 0rem;
 }
 
 .class-level-item {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 59.3rem;
-    background-color: lightblue;
+    background-color: white;
     border-radius: 25px;
     padding: 2rem;
     gap: 0.5rem;
@@ -24,11 +30,16 @@
     border-radius: 25px;
 }
 
+.class-level-info-text {
+    font-size: 1.3rem;
+}
+
+#our-classes-container.chinese {
+    font-family: 'chinesefont';
+}
+
 .class-level-info-title {
     font-size: 2.2rem;
     font-weight: bold;
-}
-
-.class-level-info-text {
-    font-size: 1.4rem;
+    color: darkred;
 }
