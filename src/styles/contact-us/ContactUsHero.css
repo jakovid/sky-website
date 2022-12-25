@@ -12,6 +12,8 @@
 }
 
 .contact-us-hero-text {
-    color: darkblue;
-    font-size: 3.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 5.5rem;
+    text-align: center;
 }
