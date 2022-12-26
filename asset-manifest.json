@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sky-website/static/css/main.9a1b61ea.css",
-    "main.js": "/sky-website/static/js/main.d8c64d3f.js",
+    "main.js": "/sky-website/static/js/main.fbabd727.js",
     "static/media/SentyWEN2017.ttf": "/sky-website/static/media/SentyWEN2017.efbdb4944b935728c061.ttf",
     "static/media/ClassPic11.webp": "/sky-website/static/media/ClassPic11.71eb9a839f241e70f12e.webp",
     "static/media/ClassPic10.webp": "/sky-website/static/media/ClassPic10.6cc0827407dbd7e45f24.webp",
@@ -41,10 +41,10 @@
     "static/media/canadaFlag.webp": "/sky-website/static/media/canadaFlag.a8b4b88e258075c9c5e7.webp",
     "index.html": "/sky-website/index.html",
     "main.9a1b61ea.css.map": "/sky-website/static/css/main.9a1b61ea.css.map",
-    "main.d8c64d3f.js.map": "/sky-website/static/js/main.d8c64d3f.js.map"
+    "main.fbabd727.js.map": "/sky-website/static/js/main.fbabd727.js.map"
   },
   "entrypoints": [
     "static/css/main.9a1b61ea.css",
-    "static/js/main.d8c64d3f.js"
+    "static/js/main.fbabd727.js"
   ]
 }
