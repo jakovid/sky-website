@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import App from './App';
 import RouteSwitch from './RouteSwitch';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import EnglishHome from "./pages/EnglishHome";
@@ -19,7 +20,7 @@ root.render(
   // <React.StrictMode>
   //   <RouteSwitch />
   // </React.StrictMode>
-  <HashRouter  basename='/'>
+  <HashRouter >
   <Routes>
       <Route path='/' element={<ChineseHome />} />
       <Route path='/about-us' element={<ChineseAboutUs />} />
