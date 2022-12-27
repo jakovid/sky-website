@@ -24,3 +24,21 @@
     font-weight: bold;
     text-align: center;
 }
+
+/* mobile portrait */
+@media (max-width:500px) {
+    #our-team-tw-teachers {
+        flex-direction: column;
+        align-items: center;
+        width: 70vw;
+        gap: 2vw;
+    }
+
+    .taiwan-teacher-picture {
+        height: 55vw;
+    }
+
+    .taiwan-teacher-name {
+        font-size: 6vw;
+    }
+}

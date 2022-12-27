@@ -14,3 +14,14 @@
     font-size: 8rem;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* mobile portrait */
+@media (max-width:500px) {
+    #our-team-hero-container {
+        height: 50vw;
+        padding: unset;
+        font-size: 7.3vw;
+        align-items: center;
+        justify-content: center;
+    }
+}

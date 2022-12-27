@@ -43,3 +43,15 @@
     font-size: 1.15rem;
     padding-top: 0.8rem;
 }
+
+/* mobile portrait */
+@media (max-width:500px) {
+    #our-team-english-teachers {
+        width: 70vw;
+        gap: 3vw;
+    }
+
+    .english-teacher-picture {
+        height: 55vw;
+    }
+}
