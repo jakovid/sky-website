@@ -48,7 +48,7 @@ export default function ChineseAboutUsBody() {
                         </div>
                     </div>
                 </div>
-                <div className="about-us-main-item" >
+                <div className="about-us-main-item reverse" >
                     <div className='about-us-main-item-text-box'>
                         <div className='about-us-main-item-title chinese red-text'>熱忱的老師<br/>優秀學生</div>
                         <div className='about-us-main-item-text green-text'>

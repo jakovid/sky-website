@@ -27,7 +27,7 @@ export default function EnglishAboutUsBody() {
                         </div>
                     </div>
 
-                    <div className='about-us-intro-box'>
+                    <div className='about-us-intro-box reverse'>
                         <div className='about-us-intro-box-title'>Strong Foundation</div>
                         <div className='about-us-intro-box-text'>
                             With a strong foundation in phonics, students move on to grammar 
