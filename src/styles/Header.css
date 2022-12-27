@@ -93,3 +93,43 @@
     width: 3rem;
     border-radius: 50%;
 }
+
+#header-nav-hamburger {
+    display: none;
+}
+
+/* mobile portrait */
+@media (max-width:414px) {
+#header-wrapper-1 {
+    padding-left: 0rem;
+    background-color: white;
+    height: 3rem;
+    grid-template-columns: 5fr 1fr;
+}
+
+#header-logo {
+    height: 3rem;
+    width:4rem;
+}
+
+#header-nav {
+    display: none;
+}
+
+.header-btn.english{
+    font-size: 1rem;
+}
+
+.header-btn.chinese {
+    font-size: 1rem;
+}
+
+#header-language {
+    display: none;
+}
+
+#header-nav-hamburger {
+    background-color: pink;
+}
+
+}

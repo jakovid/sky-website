@@ -51,3 +51,25 @@
 #hero-title.chinese {
     font-family: chineseFont;
 }
+
+/* mobile portrait */
+@media (max-width:414px) { 
+    #hero-wrapper {
+        height: 10rem;
+    }
+
+    #hero-container {
+        height: 10rem;
+        background-position: 30% 0%;
+    }
+
+    #hero-logo {
+        display: none;
+    }
+
+    #hero-title {
+        font-size: 1.3rem;
+    }
+
+   
+}
