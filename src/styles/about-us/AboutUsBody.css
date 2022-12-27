@@ -98,3 +98,15 @@
 .chinese {
     font-family: chineseFont;
 }
+
+/* mobile */
+@media (max-width:500px) { 
+    #about-us-intro-title {
+        font-size: 8vw;
+    }
+
+    #about-us-intro-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+}

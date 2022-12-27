@@ -27,3 +27,15 @@
 #about-us-hero-text.chinese {
     font-family: chineseFont;
 }
+
+/* mobile */
+@media (max-width:500px) { 
+    #about-us-hero-container {
+        height: 50vw;
+        align-items: center;
+    }
+
+    #about-us-hero-text {
+        font-size: 15vw;
+    }
+}
