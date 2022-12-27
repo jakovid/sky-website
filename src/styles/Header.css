@@ -99,7 +99,7 @@
 }
 
 /* mobile portrait */
-@media (max-width:414px) {
+@media (max-width:500px) {
 #header-wrapper-1 {
     padding-left: 0rem;
     background-color: white;

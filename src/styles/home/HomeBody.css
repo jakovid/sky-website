@@ -52,7 +52,7 @@
 }
 
 /* mobile portrait */
-@media (max-width:414px) { 
+@media (max-width:500px) { 
     #home-body-container {
         padding-top: 1rem;
         flex-direction: column;
@@ -66,13 +66,13 @@
     }
 
     .home-body-title {
-        font-size: 1.25rem;
+        font-size: 8vw;
         height: unset;
         padding: unset;
     }
 
     .home-body-text {
         padding-top: 0rem;
-        font-size: 1rem;
+        font-size: 5.4vw;
     }
 }

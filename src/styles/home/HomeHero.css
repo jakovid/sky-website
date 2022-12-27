@@ -53,13 +53,14 @@
 }
 
 /* mobile portrait */
-@media (max-width:414px) { 
+@media (max-width:500px) { 
     #hero-wrapper {
-        height: 10rem;
+        height: 50vw;
+        align-items: center;
     }
 
     #hero-container {
-        height: 10rem;
+        height: 50vw;
         background-position: 30% 0%;
     }
 
@@ -68,7 +69,8 @@
     }
 
     #hero-title {
-        font-size: 1.3rem;
+        font-size: 7.3vw;
+        grid-row: 2/3;
     }
 
    

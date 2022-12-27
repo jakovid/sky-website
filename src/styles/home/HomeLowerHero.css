@@ -26,3 +26,17 @@
 #home-lower-hero-text.chinese {
     font-family: chineseFont;
 }
+
+/* mobile portrait */
+@media (max-width:500px) {
+    #home-lower-hero-container {
+        height: 45vw;
+        padding: unset;
+        margin: unset;
+    }
+
+    #home-lower-hero-text {
+        font-size: 12vw;
+        text-align: center;
+    }
+}

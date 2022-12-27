@@ -2,11 +2,13 @@
 
 #english-footer-container {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 4rem;
     height: 6.5rem;
     font-family: 'Mulish', sans-serif;
+    background-color: white;
 }
 
 #english-footer-phone-number {
@@ -18,7 +20,36 @@
 #english-footer-logo-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
     height: 5rem;
     padding-top: 1rem;
     
+}
+
+/* mobile portrait */
+@media (max-width:500px) {
+    #english-footer-container {
+        flex-direction: column;
+        height: 20vw;
+        padding: 0vw 4vw 0 4vw;   
+        gap: 0;
+    }
+
+    #english-footer-phone-number {
+        font-size: 8vw;
+    }
+
+    #english-footer-logo-container {
+        height: 6vw;
+        padding-top: 2vw;
+        gap: 6vw;
+    }
+
+    #english-footer-sky-logo {
+        height: 6vw;
+    }
+
+    #footer-fb-logo {
+        height: 6vw;
+    }
 }
