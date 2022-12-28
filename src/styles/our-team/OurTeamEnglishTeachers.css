@@ -49,9 +49,16 @@
     #our-team-english-teachers {
         width: 70vw;
         gap: 3vw;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .english-teacher-picture {
         height: 55vw;
+    }
+
+    .english-teacher-info-box {
+        justify-content: center;
     }
 }
