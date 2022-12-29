@@ -13,3 +13,14 @@
     font-family: 'Montserrat', sans-serif;
     text-shadow: 2px 2px 4px slategray;
 }
+
+/* mobile portrait */
+@media (max-width:500px) {
+    #our-classes-hero-container {
+        height: 50vw;
+        font-size: 7.3vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}
