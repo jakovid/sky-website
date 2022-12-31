@@ -38,3 +38,31 @@
     padding-top:0.5rem;
     color: darkgreen;
 }
+
+/* mobile portrait */
+@media (max-width:500px) {
+
+
+    #our-classes-intro-box {
+        flex-direction: column-reverse;
+        width: 100vw;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    #our-classes-intro-image {
+        height: unset;
+        width: 80vw;
+    }
+
+    #our-classes-intro-title {
+        font-size: 9vw;
+    }
+
+    #our-classes-intro-text {
+        font-size: 5vw;
+        width: 80vw;
+        padding: 2.5vw;
+    }
+}

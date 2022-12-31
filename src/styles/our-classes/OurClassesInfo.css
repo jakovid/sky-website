@@ -41,3 +41,30 @@
     font-weight: bold;
     font-size: 1.25rem;
 }
+
+/* mobile portrait */
+@media (max-width:500px) {
+
+    #our-classes-box{
+        gap: 3vw;
+    }
+
+    #our-classes-title {
+        font-size: 7.5vw;
+    }
+
+    .class-info-item {
+        gap: 2vw;
+        width: 40vw;
+        padding: 2vw;
+        text-align: center;
+    }
+
+    .class-info-item-title {
+        font-size: 5vw;
+    }
+
+    .class-info-item-text {
+        font-size: 4vw;
+    }
+}
