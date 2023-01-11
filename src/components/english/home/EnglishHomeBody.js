@@ -36,7 +36,7 @@ export default function EnglishHomeBody() {
             <div className='home-body-item'>
                 <img className='home-body-image' src={ClassPic3} />
                 <div className='home-body-title' >
-                    Custom, Relevant Class Content
+                    Custom and Relevant Class Content
                 </div>
                 <div className='home-body-text'>
                 Back in 2008, we believed that the English books used in Taiwanese 
