@@ -29,6 +29,18 @@
 }
 
 /* mobile */
+@media (max-width:1030px) { 
+    #about-us-hero-container {
+        height: 30vw;
+        align-items: flex-end;
+    }
+
+    #about-us-hero-text {
+        font-size: 10vw;
+    }
+}
+
+/* mobile */
 @media (max-width:500px) { 
     #about-us-hero-container {
         height: 50vw;

@@ -99,6 +99,62 @@
     font-family: chineseFont;
 }
 
+/* laptop */
+@media (max-width:1030px) { 
+    #about-us-intro-title {
+        font-size: 5vw;
+    }
+
+    #about-us-intro-boxes {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .about-us-intro-box {
+        width: 30vw;
+        min-height: 35vw;
+    }
+
+    .about-us-intro-box-title {
+        font-size: 4.6vw;
+        padding: unset;
+    }
+
+    .about-us-intro-box-text {
+        font-size: 2vw;
+        padding: 2vw 2vw 2vw 2vw;
+    }
+
+    .about-us-main-item {
+        display: flex;
+        flex-direction: row;
+        width: 90vw;
+        text-align: center;
+        justify-items: center;
+        gap: 2vw;
+    }
+
+    .about-us-main-item-image {
+        border-radius: 25px;
+        height:55vw;
+        width: 40vw;
+        object-fit: cover;
+    }
+
+    .about-us-main-item-text-box {
+        text-align: center;
+        gap: 2vw;
+    }
+
+    .about-us-main-item-title {
+        font-size: 5vw;
+    }
+
+    .about-us-main-item-text {
+        font-size: 3vw;
+    }
+}
+
 /* mobile */
 @media (max-width:500px) { 
     #about-us-intro-title {
@@ -132,6 +188,11 @@
         text-align: center;
         justify-items: center;
         gap: 2vw;
+    }    
+
+    .about-us-main-item-image {
+        height: unset;
+        width: unset;
     }
 
     .about-us-main-item.reverse {
@@ -144,10 +205,10 @@
     }
 
     .about-us-main-item-title {
-        font-size: 10vw;
+        font-size: 8vw;
     }
 
     .about-us-main-item-text {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 }

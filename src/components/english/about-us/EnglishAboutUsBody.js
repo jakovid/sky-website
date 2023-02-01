@@ -53,7 +53,7 @@ export default function EnglishAboutUsBody() {
                         </div>
                     </div>
                 </div>
-                <div className="about-us-main-item" >
+                <div className="about-us-main-item reverse" >
                     <div className='about-us-main-item-text-box'>
                         <div className='about-us-main-item-title red-text'>Great Teachers, <br/> Great Students</div>
                         <div className='about-us-main-item-text green-text'>
