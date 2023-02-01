@@ -31,6 +31,30 @@
     color: darkgreen;
 }
 
+/* laptop */
+@media (max-width:1030px) {
+    #our-team-info-container {
+        flex-direction: column-reverse;
+        justify-items: center;
+        margin: unset;
+        gap: 3vw;
+        
+    }
+
+    #our-team-info-text-box {
+        width: 70vw;
+        min-width: none;
+    }
+
+    #our-team-info-title {
+        font-size: 9vw;
+    }
+
+    #our-team-info-text {
+        font-size: 5vw;
+    }
+}
+
 /* mobile portrait */
 @media (max-width:500px) {
     #our-team-info-container {

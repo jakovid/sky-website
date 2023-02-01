@@ -29,11 +29,6 @@ let TaiwanTeachers = [
         id: uuidv4()
     },
     {
-        name: 'Luna',
-        picture: lunaPic,
-        id: uuidv4()
-    },
-    {
         name: 'Tina',
         picture: tinaPic,
         id: uuidv4()

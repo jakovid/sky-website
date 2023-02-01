@@ -2,7 +2,7 @@
 
 #our-team-hero-container {
     margin-top: 0.4rem;
-    height: 29.6rem;
+    height: 33vw;
     background-color: pink;
     background-image: url(../../images/ClassPic8.webp);
     background-size: cover;
@@ -11,9 +11,10 @@
     padding-right: 4rem;
     color: white;
     text-shadow: black 2px 2px 6px;
-    font-size: 8rem;
+    font-size: 10vw;
     font-family: 'Montserrat', sans-serif;
 }
+
 
 /* mobile portrait */
 @media (max-width:500px) {

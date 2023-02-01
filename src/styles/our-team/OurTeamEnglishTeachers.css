@@ -14,12 +14,14 @@
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
     width: 70rem;
     gap: 3rem;
 }
 
 .english-teacher-picture {
     height: 20rem;
+    max-width: 30rem;
 }
 
 .english-teacher-info-box {
@@ -42,6 +44,7 @@
     font-weight: bold;
     font-size: 1.15rem;
     padding-top: 0.8rem;
+    text-align: left;
 }
 
 /* mobile portrait */
