@@ -27,6 +27,34 @@
 }
 
 /* mobile portrait */
+@media (max-width:1030px) {
+    #english-footer-container {
+        flex-direction: row;
+        height: 10vw;
+        padding: 0vw 4vw 0 4vw;   
+        justify-content: space-between;
+    }
+
+    #english-footer-phone-number {
+        font-size: 4vw;
+    }
+
+    #english-footer-logo-container {
+        height: 6vw;
+        padding-top: 2vw;
+        gap: 6vw;
+    }
+
+    #english-footer-sky-logo {
+        height: 6vw;
+    }
+
+    #footer-fb-logo {
+        height: 6vw;
+    }
+}
+
+/* mobile portrait */
 @media (max-width:500px) {
     #english-footer-container {
         flex-direction: column;

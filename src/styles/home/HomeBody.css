@@ -51,6 +51,38 @@
     font-family: 'Mulish', sans-serif;
 }
 
+/* Laptop */
+@media (max-width:1030px) { 
+    #home-body-container {
+        padding-top: 1rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 6vw
+    }
+
+    .home-body-item {
+        display: grid;
+        gap: 0.5rem;
+        grid-template-columns: 1fr 5fr;
+        width: 90vw;
+        min-height: unset;        
+    }
+
+    .home-body-image {
+        width: 34vw;
+        grid-row: 1/3;
+    }
+
+    .home-body-title {
+        font-size: 4vw;
+    }
+
+    .home-body-text {
+        font-size: 2.5vw;
+    }
+
+}
+
 /* mobile portrait */
 @media (max-width:500px) { 
     #home-body-container {
@@ -63,7 +95,13 @@
     .home-body-item {
         width: 90vw;
         min-height:unset;
+        display: flex;
     }
+
+    .home-body-image {
+        width: unset;
+    }
+
 
     .home-body-title {
         font-size: 8vw;

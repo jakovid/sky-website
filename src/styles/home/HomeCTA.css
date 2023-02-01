@@ -9,8 +9,9 @@
     grid-template-columns: 1fr 1fr;
     color: white;
     background-color: rgb(34, 70, 187);
-    height: 9rem;
-    padding-top:1.5rem;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
     padding-left: 7rem;
     padding-right: 7rem;
     gap: 3rem;
@@ -33,6 +34,7 @@
 #home-cta-email-wrapper {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 #home-cta-email-container {
@@ -70,6 +72,52 @@
 #home-cta-email-subtext {
     text-align: center;
     padding-top: 3rem;
+}
+
+/* laptop  */
+@media (max-width:1030px) {
+    #home-cta-container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding: unset;
+        height: 30vw;
+        gap: 4vw;
+        justify-content: center;
+    }
+
+    #home-cta-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 4vw;
+        padding-top: 2vw;
+    }
+
+    #home-cta-email-container {
+        height: 5vw;
+        width: 70vw;
+    }
+
+    #home-cta-email-input{
+        height: 4vw;
+        width: 50vw;
+    }
+
+    #home-cta-submit-button {
+        font-size: 2vw;
+        padding: unset;
+        height: 4vw;
+        padding: 0vw 6vw 0vw 6vw;
+        margin-right: -.1em;
+    }
+
+    #home-cta-email-subtext {
+        font-size: 3vw;
+        padding-top: 2vw;
+        
+    }
 }
 
 /* mobile portrait */

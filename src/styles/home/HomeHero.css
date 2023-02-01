@@ -7,7 +7,6 @@
 #hero-wrapper {
     display: flex;
     background-color: lightgray;
-    /* height:39vh; */
     justify-content: center;
 }
 
@@ -18,27 +17,26 @@
     align-items: center;
     justify-content: center;
     width:100vw;
-    height: 39vw;
+    height: 39vh;
     background-color: lightgray;
     background-image: url('../../images/SkylineBG.webp');
-    background-position: 150% 50%;
-    background-size:auto;
+    background-position: 100% 50%;
+    background-size:cover;
     /* resize:both; */
 }
 
 #hero-logo {
-    padding-top: 3vw;
-    padding-bottom: 3vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
     justify-content: left;
 }
 
 #hero-title {
     display: flex;
-    padding-top: 3.5vh;
     height: 100%;
     flex-direction: column;
     text-align: center;
-    font-size: 6vw;
+    font-size: 6vh;
     grid-column: 1 / 4;
     text-shadow: 2px 2px 4px black;
     color: white;
@@ -50,6 +48,29 @@
 
 #hero-title.chinese {
     font-family: chineseFont;
+}
+/* Laptop */
+@media (max-width:1030px) { 
+    #hero-wrapper {
+        align-items: center;
+    }
+
+    #hero-title {
+        grid-row: 2/3;
+    }
+   
+}
+
+/* Tablet */
+@media (max-width:780px) { 
+    #hero-wrapper {
+        align-items: center;
+    }
+
+    #hero-title {
+        grid-row: 2/3;
+    }
+   
 }
 
 /* mobile portrait */
@@ -75,3 +96,4 @@
 
    
 }
+
