@@ -45,6 +45,36 @@
 }
 
 /* mobile portrait */
+@media (max-width:1030px) {
+    #our-classes-container {
+        gap: 7vw;
+        padding: 7vw 0 4vw 0;
+    }
+
+    .class-level-item {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 80vw;
+        padding: 5vw;
+        gap: 2vw;
+        text-align: center;
+        align-items: center;
+    }
+
+    .class-level-picture {
+        width: 80vw;
+    }
+
+    .class-level-info-title {
+        font-size: 6vw;
+    }
+
+    .class-level-info-text {
+        font-size: 3vw;
+    }
+}
+
+/* mobile portrait */
 @media (max-width:500px) {
     #our-classes-container {
         gap: 7vw;

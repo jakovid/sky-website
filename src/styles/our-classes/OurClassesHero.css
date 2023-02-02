@@ -14,6 +14,17 @@
     text-shadow: 2px 2px 4px slategray;
 }
 
+/* laptop and tablet */
+@media (max-width:1030px) {
+    #our-classes-hero-container {
+        height: 30vw;
+        font-size: 7.3vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}
+
 /* mobile portrait */
 @media (max-width:500px) {
     #our-classes-hero-container {

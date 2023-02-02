@@ -40,6 +40,32 @@
 }
 
 /* mobile portrait */
+@media (max-width:1030px) {
+
+
+    #our-classes-intro-box {
+        align-items: center;
+        text-align: left;
+        width: 90vw;
+        
+    }
+
+    #our-classes-intro-image {
+        object-fit: cover;
+        width: 30vw;
+        height: 30vw;
+    }
+
+    #our-classes-intro-title {
+        font-size: 5vw;
+    }
+
+    #our-classes-intro-text {
+        font-size: 2.4vw;
+    }
+}
+
+/* mobile portrait */
 @media (max-width:500px) {
 
 
