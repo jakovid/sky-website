@@ -25,7 +25,7 @@
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     align-items: center;
-    padding-left: 5rem;
+    padding-left: 5vw;
     height: 4.33rem;
     gap: 3rem;
 }
@@ -98,13 +98,25 @@
     display: none;
 }
 
+.header-btn-icon {
+    display: none;
+}
+
+@media (max-width:1030px) {
+.header-btn.header-btn.english {
+    font-size: 2vw;
+    }
+}
+
 /* mobile portrait */
 @media (max-width:500px) {
 #header-wrapper-1 {
     padding-left: 0rem;
     background-color: white;
     height: 3rem;
-    grid-template-columns: 5fr 1fr;
+    display: grid;
+    justify-content: 1fr 5fr 1fr;
+    gap: 4vw;
 }
 
 #header-logo {
@@ -113,23 +125,25 @@
 }
 
 #header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-btn-icon {
+    display: unset;
+    height: 2.5rem;
+}
+
+.header-btn {
     display: none;
-}
-
-.header-btn.english{
-    font-size: 1rem;
-}
-
-.header-btn.chinese {
-    font-size: 1rem;
 }
 
 #header-language {
+    width: unset;
+    margin-right: 1vw;
+}
+
+.header-language-name {
     display: none;
 }
-
-#header-nav-hamburger {
-    background-color: pink;
-}
-
 }
