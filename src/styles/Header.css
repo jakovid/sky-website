@@ -44,8 +44,11 @@
     justify-content:  space-between;
 }
 
-.header-btn {
+#header-nav>a {
     text-decoration: none;
+}
+
+.header-btn {
     color: darkred;
     padding: 0.5rem;
 }
@@ -66,7 +69,7 @@
 
 .header-btn.chinese {
     font-family: chineseFont;
-    font-size: 1.5rem;
+    font-size: 1.45rem;
     padding: 0.25rem;
 }
 
@@ -104,6 +107,10 @@
 
 @media (max-width:1030px) {
 .header-btn.header-btn.english {
+    font-size: 2vw;
+    }
+
+.header-btn.header-btn.chinese {
     font-size: 2vw;
     }
 }
