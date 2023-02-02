@@ -147,7 +147,12 @@
 
 #header-language {
     width: unset;
-    margin-right: 1vw;
+    padding: unset;
+    gap: unset;
+}
+
+#header-language:hover {
+    background-color: unset;
 }
 
 .header-language-name {

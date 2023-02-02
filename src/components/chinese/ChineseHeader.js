@@ -41,7 +41,7 @@ export default function ChineseHeader() {
                     <div>
                         <a href='../sky-website/#/home/en' id='header-language'>
                         <img className='header-language-flag' src={USAflag} />
-                        <div>English</div>
+                        <div class='header-language-name'>English</div>
                         </a>
                     </div>
                 </div>
