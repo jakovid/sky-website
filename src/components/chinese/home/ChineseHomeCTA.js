@@ -1,8 +1,22 @@
-import React from "react";
-import "../../../styles/home/HomeCTA.css";;
+import React, { userRef } from "react";
+import "../../../styles/home/HomeCTA.css";
+import emailjs from "@emailjs/browser";
 
 
 export default function ChineseHomeCTA() {
+    const form = userRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_9q9qq72', 'template_h2lis7d', form.current, 'hrdLjccQiPS2eGQhu')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            })
+    };
+
     return(
         <div id='home-cta-container'>
             <div id='home-cta-text' className='chinese'>
@@ -12,10 +26,10 @@ export default function ChineseHomeCTA() {
 
             <div id='home-cta-email-wrapper'>
 
-                <div id='home-cta-email-container'>
-                    <input id='home-cta-email-input'  type='text' placeholder='電子郵件' />
-                    <button id='home-cta-submit-button' type='submit'>提交</button>
-                </div>
+                <form id='home-cta-email-container' ref={form} onSubmit={sendEmail}>
+                    <input id='home-cta-email-input' name="user_email"  type='text' placeholder='電子郵件' />
+                    <button id='home-cta-submit-button' value="Send" type='submit'>提交</button>
+                </form>
 
                 <div id='home-cta-email-subtext'>
                     我們會盡快和您聯繫，謝謝!
