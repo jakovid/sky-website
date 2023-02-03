@@ -1,10 +1,10 @@
-import React, { userRef } from "react";
+import React, { useRef } from "react";
 import "../../../styles/home/HomeCTA.css";
 import emailjs from "@emailjs/browser";
 
 
 export default function ChineseHomeCTA() {
-    const form = userRef();
+    const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();

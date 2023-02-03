@@ -3,7 +3,7 @@ import '../../../styles/contact-us/ContactUsBody.css';
 import emailjs from "@emailjs/browser";
 
 export default function EnglishContactUsBody(){
-    const form = userRef();
+    const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -29,28 +29,28 @@ export default function EnglishContactUsBody(){
                 </div>
                 <form className="contact-us-body-left-form" ref={form} onSubmit={sendEmail}>
                     <div className="form-item">
-                        <label for='name'>Name *</label>
-                        <input type='text' name="user_name" id='name' class='form-input' placeholder="Full Name" required/>
+                        <label htmlFor='name'>Name *</label>
+                        <input type='text' name="user_name" id='name' className='form-input' placeholder="Full Name" required/>
                     </div>
                     <div className="form-item">
-                        <label for='email'>Email *</label>
-                        <input type='email' name="user_email" class='form-input' id='email' placeholder="example@youremail.com" required/>
+                        <label htmlFor='email'>Email *</label>
+                        <input type='email' name="user_email" className='form-input' id='email' placeholder="example@youremail.com" required/>
                     </div>
                     <div className="form-item">
-                        <label for='phone'>Phone Number</label>
-                        <input type='tel' name="user_phone" id='phone'  class='form-input' placeholder="123-456-7890"/>
+                        <label htmlFor='phone'>Phone Number</label>
+                        <input type='tel' name="user_phone" id='phone'  className='form-input' placeholder="123-456-7890"/>
                     </div>
                     <div className="form-item">
-                        <label for='classes'>Classes *</label>
-                        <select id='classes' name="user_class" class='form-input' required>
+                        <label htmlFor='classes'>Classes *</label>
+                        <select id='classes' name="user_class" className='form-input' required>
                             <option value='Beginner Classes'>Beginner Classes 初階班</option>
                             <option value='Intermediate Classes'>Intermediate Classes 中階班</option>
                             <option value='Advanced Classes'>Advanced Classes 高階班</option>
                         </select>
                     </div>
                     <div className="form-item message-box">
-                        <label for='message'>Message</label>
-                        <textarea type='text' name="user_message" class='form-input' rows='7' id='message' placeholder="Write your message here..." />
+                        <label htmlFor='message'>Message</label>
+                        <textarea type='text' name="user_message" className='form-input' rows='7' id='message' placeholder="Write your message here..." />
                     </div>
                     <button type='submit' value="Send" className='contact-us-submit'>SUBMIT</button>
                 </form>

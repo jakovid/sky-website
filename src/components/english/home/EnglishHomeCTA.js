@@ -3,7 +3,7 @@ import "../../../styles/home/HomeCTA.css";
 import emailjs from "@emailjs/browser";
 
 export default function EnglishHomeCTA() {
-    const form = userRef();
+    const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();

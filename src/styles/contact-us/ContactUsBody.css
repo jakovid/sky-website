@@ -96,6 +96,53 @@ button.contact-us-submit {
 }
 
 /* mobile portrait */
+@media (max-width:1030px) {
+    .contact-us-body-container {
+        flex-direction: column;
+        gap: 3vw;
+    }
+
+    .contact-us-body-left {
+        gap: 4vw;
+        padding: 3vw;
+    }
+
+    .contact-us-body-left-text {
+        gap: 3vw;
+    }
+
+    .contact-us-body-title {
+        font-size: 5vw;
+    }
+
+    .contact-us-body-left-form {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+    }
+
+    .form-item {
+        width: 80vw;
+    }
+
+    button.contact-us-submit {
+        width: 80vw;
+    }
+
+    .contact-us-body-right {
+        display: flex;
+        flex-direction: row;
+        gap: 3vw;
+        padding-bottom: 4vw;
+    }
+
+    .contact-us-body-right-item {
+        font-size: 2vw;
+        width: 20vw;
+    }
+}
+
+/* mobile portrait */
 @media (max-width:500px) {
     .contact-us-body-container {
         flex-direction: column;

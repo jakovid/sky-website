@@ -38,8 +38,8 @@ export default function EnglishHeader() {
                     </div>
                     <div>
                         <a href='../sky-website/' id='header-language'>
-                            <img class='header-language-flag' src={TWflag} />
-                            <div class='header-language-name'>中文</div>
+                            <img className='header-language-flag' src={TWflag} />
+                            <div className='header-language-name'>中文</div>
                         </a>
                     </div>
                 </div>

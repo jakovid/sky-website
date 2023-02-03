@@ -29,28 +29,28 @@ export default function ChineseContactUsBody(){
                 </div>
                 <form className="contact-us-body-left-form" ref={form} onSubmit={sendEmail}>
                     <div className="form-item">
-                        <label for='name'>名稱 *</label>
-                        <input type='text' name="user_name" id='name' class='form-input' placeholder="全名" required/>
+                        <label htmlFor='name'>名稱 *</label>
+                        <input type='text' name="user_name" id='name' className='form-input' placeholder="全名" required/>
                     </div>
                     <div className="form-item">
-                        <label for='email'>電子郵件 *</label>
-                        <input type='email' name="user_email" class='form-input' id='email' placeholder="example@youremail.com" required/>
+                        <label htmlFor='email'>電子郵件 *</label>
+                        <input type='email' name="user_email" className='form-input' id='email' placeholder="example@youremail.com" required/>
                     </div>
                     <div className="form-item">
-                        <label for='phone'>電話號碼</label>
-                        <input type='tel' name="user_phone" id='phone'  class='form-input' placeholder="123-456-7890"/>
+                        <label htmlFor='phone'>電話號碼</label>
+                        <input type='tel' name="user_phone" id='phone'  className='form-input' placeholder="123-456-7890"/>
                     </div>
                     <div className="form-item">
-                        <label for='classes'>班級 *</label>
-                        <select id='classes' name="user_class" class='form-input' required>
+                        <label htmlFor='classes'>班級 *</label>
+                        <select id='classes' name="user_class" className='form-input' required>
                             <option value='Beginner Classes'>Beginner Classes 初階班</option>
                             <option value='Intermediate Classes'>Intermediate Classes 中階班</option>
                             <option value='Advance Classes'>Advanced Classes 高階班</option>
                         </select>
                     </div>
                     <div className="form-item message-box">
-                        <label for='message' >信息</label>
-                        <textarea type='text' name="user_message" class='form-input' rows='7' id='message' placeholder="在這裡寫下您的訊息..." />
+                        <label htmlFor='message' >信息</label>
+                        <textarea type='text' name="user_message" className='form-input' rows='7' id='message' placeholder="在這裡寫下您的訊息..." />
                     </div>
                     <button type='submit' value="Send" className='contact-us-submit'>提交</button>
                 </form>
