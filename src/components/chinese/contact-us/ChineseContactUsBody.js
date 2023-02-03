@@ -1,7 +1,21 @@
-import React from "react";
+import React, { useRef } from "react";
 import '../../../styles/contact-us/ContactUsBody.css';
+import emailjs from "@emailjs/browser";
 
 export default function ChineseContactUsBody(){
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_9q9qq72', 'template_4kpn7w7', form.current, 'hrdLjccQiPS2eGQhu')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            })
+    };
+
     return(
         <div className="contact-us-body-container">
             <div className="contact-us-body-left">
@@ -13,32 +27,32 @@ export default function ChineseContactUsBody(){
                         填寫下面的表格、發送電子郵件或致電，我們會盡快回复您！
                     </div>
                 </div>
-                <form className="contact-us-body-left-form">
+                <form className="contact-us-body-left-form" ref={form} onSubmit={sendEmail}>
                     <div className="form-item">
                         <label for='name'>名稱 *</label>
-                        <input type='text' id='name' class='form-input' placeholder="全名" required/>
+                        <input type='text' name="user_name" id='name' class='form-input' placeholder="全名" required/>
                     </div>
                     <div className="form-item">
                         <label for='email'>電子郵件 *</label>
-                        <input type='email' class='form-input' id='email' placeholder="example@youremail.com" required/>
+                        <input type='email' name="user_email" class='form-input' id='email' placeholder="example@youremail.com" required/>
                     </div>
                     <div className="form-item">
                         <label for='phone'>電話號碼</label>
-                        <input type='tel' id='phone'  class='form-input' placeholder="123-456-7890"/>
+                        <input type='tel' name="user_phone" id='phone'  class='form-input' placeholder="123-456-7890"/>
                     </div>
                     <div className="form-item">
                         <label for='classes'>班級 *</label>
-                        <select id='classes' class='form-input' required>
-                            <option value='beginner'>Beginner Classes 初階班</option>
-                            <option value='intermediate'>Intermediate Classes 中階班</option>
-                            <option value='advanced'>Advanced Classes 高階班</option>
+                        <select id='classes' name="user_class" class='form-input' required>
+                            <option value='Beginner Classes'>Beginner Classes 初階班</option>
+                            <option value='Intermediate Classes'>Intermediate Classes 中階班</option>
+                            <option value='Advance Classes'>Advanced Classes 高階班</option>
                         </select>
                     </div>
                     <div className="form-item message-box">
-                        <label for='message'>信息</label>
-                        <textarea type='text' class='form-input' rows='7' id='message' placeholder="在這裡寫下您的訊息..." />
+                        <label for='message' >信息</label>
+                        <textarea type='text' name="user_message" class='form-input' rows='7' id='message' placeholder="在這裡寫下您的訊息..." />
                     </div>
-                    <button type='submit' className='contact-us-submit'>提交</button>
+                    <button type='submit' value="Send" className='contact-us-submit'>提交</button>
                 </form>
             </div>
             <div className="contact-us-body-right">
