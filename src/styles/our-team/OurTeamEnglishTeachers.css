@@ -6,6 +6,8 @@
     justify-content: center;
     font-family: 'Mulish', sans-serif;
     padding-bottom: 1.5rem;
+    background-image: url(../../images/OurTeamBG.webp);
+    background-size: contain;
 }
 
 #our-team-english-teachers {

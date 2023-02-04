@@ -6,8 +6,9 @@
     justify-content: center;
     align-items: center;
     font-family: 'Mulish', sans-serif;
-    background-color: lightgray;
     padding: 2rem 0rem 0rem 0rem;
+    background-image: url(../../images/OurTeamBG.webp);
+    background-size: contain;
 }
 
 #our-classes-intro-box {

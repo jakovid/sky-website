@@ -5,7 +5,8 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Mulish', sans-serif;
-    background-color: lightgray;
+    background-image: url(../../images/OurTeamBG.webp);
+    background-size: contain;
 }
 
 #our-classes-box {
