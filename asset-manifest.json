@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/sky-website/static/css/main.9a1b61ea.css",
-    "main.js": "/sky-website/static/js/main.e576c87e.js",
+    "main.css": "/sky-website/static/css/main.41af1fa1.css",
+    "main.js": "/sky-website/static/js/main.8a942958.js",
     "static/media/SentyWEN2017.ttf": "/sky-website/static/media/SentyWEN2017.efbdb4944b935728c061.ttf",
     "static/media/ClassPic11.webp": "/sky-website/static/media/ClassPic11.71eb9a839f241e70f12e.webp",
     "static/media/ClassPic10.webp": "/sky-website/static/media/ClassPic10.6cc0827407dbd7e45f24.webp",
     "static/media/SkylineBG.webp": "/sky-website/static/media/SkylineBG.21b52067f1efbaf31ed2.webp",
+    "static/media/OurTeamBG.webp": "/sky-website/static/media/OurTeamBG.4e943b2905aaaaec98aa.webp",
     "static/media/ClassPic14.webp": "/sky-website/static/media/ClassPic14.0d15f8a034bf42a78137.webp",
     "static/media/ClassPic13.webp": "/sky-website/static/media/ClassPic13.e1fc5aa5e078f82eaee6.webp",
     "static/media/ClassPic9.webp": "/sky-website/static/media/ClassPic9.870e66bfceb54c2bc8b5.webp",
@@ -40,11 +41,11 @@
     "static/media/usaFlag.webp": "/sky-website/static/media/usaFlag.5d778b719ab6d3853034.webp",
     "static/media/canadaFlag.webp": "/sky-website/static/media/canadaFlag.a8b4b88e258075c9c5e7.webp",
     "index.html": "/sky-website/index.html",
-    "main.9a1b61ea.css.map": "/sky-website/static/css/main.9a1b61ea.css.map",
-    "main.e576c87e.js.map": "/sky-website/static/js/main.e576c87e.js.map"
+    "main.41af1fa1.css.map": "/sky-website/static/css/main.41af1fa1.css.map",
+    "main.8a942958.js.map": "/sky-website/static/js/main.8a942958.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a1b61ea.css",
-    "static/js/main.e576c87e.js"
+    "static/css/main.41af1fa1.css",
+    "static/js/main.8a942958.js"
   ]
 }
