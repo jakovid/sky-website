@@ -16,30 +16,30 @@ export default function ChineseHeader() {
                 <div id='header-wrapper-1'>
                     <img src={SkyLogo} id='header-logo' />
                     <div id='header-nav'>
-                        <a href='../sky-website/' title="主頁">
+                        <a href='../' title="主頁">
                             <div className='header-btn chinese'>主頁</div>
                             <img className="header-btn-icon" src={Home}/>
                         </a>
-                        <a href='../sky-website/#/about-us' title="關於我們" >
+                        <a href='../#/about-us' title="關於我們" >
                             <div className='header-btn chinese'>關於我們</div>
                             <img className="header-btn-icon" src={AboutUs}/>
                         </a>
-                        <a href='../sky-website/#/our-team' title="我們的團隊">
+                        <a href='../#/our-team' title="我們的團隊">
                             <div className='header-btn chinese'>我們的團隊</div>
                             <img className="header-btn-icon" src={OurTeam}/>
                         </a>
-                        <a href='../sky-website/#/our-classes' title="我們的課程" >
+                        <a href='../#/our-classes' title="我們的課程" >
                             <div className='header-btn chinese'>我們的課程</div>
                             <img className="header-btn-icon" src={OurClasses}/>
                         </a>
-                        <a href='../sky-website/#/contact-us' title="聯繫我們">
+                        <a href='../#/contact-us' title="聯繫我們">
                             <div className='header-btn chinese'>聯繫我們</div>
                             <img className="header-btn-icon" src={ContactUs}/>
                         </a>
 
                     </div>
                     <div>
-                        <a href='../sky-website/#/home/en' id='header-language'>
+                        <a href='../#/home/en' id='header-language'>
                         <img className='header-language-flag' src={USAflag} />
                         <div class='header-language-name'>English</div>
                         </a>
