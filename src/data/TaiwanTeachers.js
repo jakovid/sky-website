@@ -2,7 +2,6 @@ import wilmaPic from "../images/taiwan-teachers/wilma.webp";
 import amyPic from "../images/taiwan-teachers/amy.webp";
 import viviPic from "../images/taiwan-teachers/vivi.webp";
 import alizaPic from "../images/taiwan-teachers/aliza.webp";
-import lunaPic from "../images/taiwan-teachers/luna.webp";
 import tinaPic from "../images/taiwan-teachers/tina.webp";
 import meijiaPic from '../images/taiwan-teachers/meijia.webp';
 import { v4 as uuidv4 } from 'uuid';
