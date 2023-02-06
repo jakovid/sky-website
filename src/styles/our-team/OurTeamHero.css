@@ -3,7 +3,6 @@
 #our-team-hero-container {
     margin-top: 0.4rem;
     height: 33vw;
-    background-color: pink;
     background-image: url(../../images/ClassPic8.webp);
     background-size: cover;
     display: flex;
