@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     gap: 3rem;
-    background-color: lightgray;
+    background-image: url(../../images/OurTeamBG.webp);
     font-family: 'Mulish', sans-serif;
 }
 

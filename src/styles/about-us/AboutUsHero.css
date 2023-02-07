@@ -9,7 +9,7 @@
     background-image: url(../../images/ClassPic5.webp);
     background-size: cover;
     margin-top: 0.4rem;
-    height: 23rem;
+    height: 25vw;
     display: flex;
     align-items: flex-end;
     padding-bottom: 1rem;
@@ -18,25 +18,13 @@
 
 #about-us-hero-text {
     color: white;
-    font-size: 3.5rem;
+    font-size: 10vw;
     font-family: 'Montserrat', sans-serif;
     text-shadow: 2px 2px 4px black;
 }
 
 #about-us-hero-text.chinese {
     font-family: chineseFont;
-}
-
-/* mobile */
-@media (max-width:1030px) { 
-    #about-us-hero-container {
-        height: 30vw;
-        align-items: flex-end;
-    }
-
-    #about-us-hero-text {
-        font-size: 10vw;
-    }
 }
 
 /* mobile */

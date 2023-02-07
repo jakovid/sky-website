@@ -2,12 +2,12 @@
 
 #our-classes-hero-container {
     margin-top: 0.4rem;
-    height: 26.2rem;
+    height: 25vw;
     padding-top: 0rem;
     background-image: url('../../images/ClassPic9.webp');
     background-size: cover;
     text-align: center;
-    font-size: 5rem;
+    font-size: 10vw;
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-shadow: 2px 2px 4px slategray;

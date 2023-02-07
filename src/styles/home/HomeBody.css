@@ -5,20 +5,20 @@
 }
 
 #home-body-container {
-    padding-top: 6vw;
-    padding-bottom: 2.5rem;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: white;
-    gap: 4rem;
+    gap: 5vw;
 }
 
 .home-body-item {
     display: flex;
     flex-direction: column;
-    width:20rem;
-    min-height: 34rem;
+    width:25vw;
+    min-height: 34vw;
     align-items: center;
     justify-items: center;
     text-align: center;
@@ -29,11 +29,11 @@
 }
 
 .home-body-title {
-    padding: 1rem;
+    padding: 1.3vw;
     display: flex;
     align-items: center;
-    font-size: 1.6rem;
-    height: 3.5rem;
+    font-size: 2vw;
+    height: 4.5vw;
     font-weight: bold;
     color:  darkred;
     font-family: 'Mulish', sans-serif;
@@ -44,9 +44,9 @@
 }
 
 .home-body-text {
-    padding-top: 1rem;
+    padding-top: 1.2vw;
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.4vw;
     color: darkblue;
     font-family: 'Mulish', sans-serif;
 }

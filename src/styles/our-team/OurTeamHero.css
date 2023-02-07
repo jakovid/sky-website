@@ -2,9 +2,10 @@
 
 #our-team-hero-container {
     margin-top: 0.4rem;
-    height: 33vw;
+    height: 25vw;
     background-image: url(../../images/ClassPic8.webp);
     background-size: cover;
+    background-position: 100%;
     display: flex;
     justify-content: right;
     padding-right: 4rem;

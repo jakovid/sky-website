@@ -17,18 +17,18 @@
     align-items: center;
     justify-content: center;
     width:100vw;
-    height: 39vh;
+    height: 25vw;
     background-color: lightgray;
     background-image: url('../../images/SkylineBG.webp');
     background-position: 100% 50%;
     background-size:cover;
-    /* resize:both; */
 }
 
 #hero-logo {
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
     justify-content: left;
+    width: 30vw;
 }
 
 #hero-title {
@@ -36,7 +36,7 @@
     height: 100%;
     flex-direction: column;
     text-align: center;
-    font-size: 6vh;
+    font-size: 7vw;
     grid-column: 1 / 4;
     text-shadow: 2px 2px 4px black;
     color: white;

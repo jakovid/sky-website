@@ -3,7 +3,7 @@
 .contact-us-hero-container {
     background-image: url(../../images/ClassPic14.webp);
     background-size: cover;
-    height: 18.5rem;
+    height: 25vw;
     display: flex;
     align-items: center;
     margin-top: 0.4rem;
@@ -14,7 +14,7 @@
 .contact-us-hero-text {
     color: white;
     text-shadow: 2px 2px 4px black;
-    font-size: 5.5rem;
+    font-size: 10vw;
     text-align: center;
 }
 
@@ -22,6 +22,7 @@
 @media (max-width:500px) {
     .contact-us-hero-container {
         height: 50vw;
+        background-position: 35%;
     }
 
     .contact-us-hero-text {

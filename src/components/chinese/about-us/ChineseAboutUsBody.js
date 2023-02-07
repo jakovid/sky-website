@@ -50,7 +50,7 @@ export default function ChineseAboutUsBody() {
                 </div>
                 <div className="about-us-main-item reverse" >
                     <div className='about-us-main-item-text-box'>
-                        <div className='about-us-main-item-title chinese red-text'>熱忱的老師<br/>優秀學生</div>
+                        <div className='about-us-main-item-title chinese red-text'>熱忱的老師 | 優秀學生</div>
                         <div className='about-us-main-item-text green-text'>
                             Sky Education 的首要任務是聘請對教學充滿活力和熱忱的教師。
                             教師團隊帶著最敬業的態度授課，並真誠地關心每一位學生。當學生積極學習並

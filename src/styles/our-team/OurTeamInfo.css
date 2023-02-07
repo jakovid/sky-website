@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Raleway:wght@600&display=swap');
 
 #our-team-info-container {
-    padding-top: 5.9rem;
+    padding: 3vw 10vw 3vw 10vw;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-between;
+    gap: 2vw;
     font-family: 'Mulish', sans-serif;
     background-image: url(../../images/OurTeamBG.webp);
     background-size: contain;
@@ -16,20 +16,19 @@
 }
 
 #our-team-info-text-box {
-    width: 27rem;
     min-width: 27rem;
     text-align: center;
 }
 
 #our-team-info-title {
-    font-size: 2.5rem;
+    font-size: 3vw;
     color: darkred;
     text-shadow: 2px 2px 4px slategray;
 }
 
 #our-team-info-text {
-    padding-top: 0.8rem;
-    font-size: 1.3rem;
+    padding-top: 0.5vw;
+    font-size: 2vw;
     color: darkgreen;
 }
 
@@ -41,6 +40,10 @@
         margin: unset;
         gap: 3vw;
         
+    }
+
+    #our-team-info-image {
+        display: none;
     }
 
     #our-team-info-text-box {
