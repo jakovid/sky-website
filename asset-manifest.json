@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8f68101.css",
-    "main.js": "/static/js/main.c57e50db.js",
+    "main.css": "/static/css/main.30abe39e.css",
+    "main.js": "/static/js/main.d3e60c83.js",
     "static/media/SentyWEN2017.ttf": "/static/media/SentyWEN2017.efbdb4944b935728c061.ttf",
     "static/media/ClassPic11.webp": "/static/media/ClassPic11.71eb9a839f241e70f12e.webp",
     "static/media/ClassPic10.webp": "/static/media/ClassPic10.6cc0827407dbd7e45f24.webp",
@@ -40,11 +40,11 @@
     "static/media/usaFlag.webp": "/static/media/usaFlag.5d778b719ab6d3853034.webp",
     "static/media/canadaFlag.webp": "/static/media/canadaFlag.a8b4b88e258075c9c5e7.webp",
     "index.html": "/index.html",
-    "main.b8f68101.css.map": "/static/css/main.b8f68101.css.map",
-    "main.c57e50db.js.map": "/static/js/main.c57e50db.js.map"
+    "main.30abe39e.css.map": "/static/css/main.30abe39e.css.map",
+    "main.d3e60c83.js.map": "/static/js/main.d3e60c83.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8f68101.css",
-    "static/js/main.c57e50db.js"
+    "static/css/main.30abe39e.css",
+    "static/js/main.d3e60c83.js"
   ]
 }
