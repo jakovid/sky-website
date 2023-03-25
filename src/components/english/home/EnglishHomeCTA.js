@@ -17,10 +17,13 @@ export default function EnglishHomeCTA() {
         
     };
 
+    let currentMonth = new Date().getMonth() + 1;
+    let currentYear = new Date().getFullYear();
+
     return(
         <div id='home-cta-container'>
             <div id='home-cta-text'>
-                New English Classes January 2023. <br/> Register Now!
+                New English Classes {1 < currentMonth < 8 ? `July ${currentYear}` : `January ${currentYear+1}`}. <br/> Register Now!
             </div>
 
             <div id='home-cta-email-wrapper'>
