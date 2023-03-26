@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
 import RouteSwitch from './RouteSwitch';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import EnglishHome from "./pages/EnglishHome";
