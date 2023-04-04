@@ -21,6 +21,13 @@
 #home-cta-text {
     font-size: 2.6rem;
     min-width: 20rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.chinese-home-cta-text {
+    display: flex;
+    flex-direction: row;
 }
 
 #home-cta-text.chinese {

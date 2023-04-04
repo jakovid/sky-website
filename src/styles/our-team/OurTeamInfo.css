@@ -7,7 +7,7 @@
     justify-content: space-between;
     gap: 2vw;
     font-family: 'Mulish', sans-serif;
-    background-image: url(../../images/OurTeamBG.webp);
+    /* background-image: url(../../images/OurTeamBG.webp); */
     background-size: contain;
 }
 

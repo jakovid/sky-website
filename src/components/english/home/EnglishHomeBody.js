@@ -5,6 +5,10 @@ import ClassPic3 from "../../../images/ClassPic3.webp";
 import "../../../styles/home/HomeBody.css";
 
 export default function EnglishHomeBody() {
+
+    var year = new Date().getFullYear();
+    let skyYears = year - 2008;
+
     return(
         <div id="home-body-container">
             <div className='home-body-item'>
@@ -26,7 +30,7 @@ export default function EnglishHomeBody() {
                     Engaging Academic Environment
                 </div>
                 <div className='home-body-text'>
-                For 14 years, we've been about having fun while learning English. 
+                For {skyYears} years, we've been about having fun while learning English. 
                 In order to have fun while learning, kids need to feel safe, 
                 confident and able to make a mistake and not worry about it. 
                 Our classes are small with multi-media in all of them.
