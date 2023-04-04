@@ -11,7 +11,7 @@
     gap: 3rem;
     font-family: 'Mulish', sans-serif;
     padding: 5rem 0rem 3rem 0rem;
-    background-image: url(../../images/OurTeamBG.webp);
+    /* background-image: url(../../images/OurTeamBG.webp); */
     background-size: contain;
 
 }

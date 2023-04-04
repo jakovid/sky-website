@@ -8,7 +8,7 @@ export default function EnglishTeacher({ teacher }) {
                 <div className="english-teacher-name">{ teacher.name }</div>
                 <img className="english-teacher-flag" src={ teacher.flag } />
             </div>
-            <div className="english-teacher-bio">{ teacher.bio }</div>
+            {/* <div className="english-teacher-bio">{ teacher.bio }</div> */}
         </div>
     )
 }
