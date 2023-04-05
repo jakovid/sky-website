@@ -1,7 +1,7 @@
 import React from "react";
 import '../../styles/Header.css';
 import TWflag from '../../images/TWFlag.png';
-import SkyLogo from '../../images/SkyLogo.webp';
+import SkyLogo from '../../images/SkyLogo.jpg';
 import Home from "../../images/icons/home.png";
 import AboutUs from "../../images/icons/about-us.png";
 import OurTeam from "../../images/icons/our-team.png";
