@@ -1,5 +1,5 @@
 import React from "react";
-import EnglishHeader from "../components/english/EnglishHeader";
+import EnglishAboutUsHeader from "../components/english/about-us/EnglisAboutUsHeader";
 import EnglishAboutUsHero from "../components/english/about-us/EnglishAboutUsHero";
 import EnglishAboutUsBody from "../components/english/about-us/EnglishAboutUsBody";
 import EnglishFooter from "../components/english/EnglishFooter";
@@ -7,7 +7,7 @@ import EnglishFooter from "../components/english/EnglishFooter";
 export default function EnglishAboutUs(){
     return(
         <div>
-            <EnglishHeader />
+            <EnglishAboutUsHeader />
             <EnglishAboutUsHero />
             <EnglishAboutUsBody />
             <div>

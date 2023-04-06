@@ -1,5 +1,5 @@
 import React from "react";
-import ChineseHeader from '../components/chinese/ChineseHeader';
+import ChineseOurClassesHeader from "../components/chinese/our-classes/ChineseOurClassesHeader";
 import ChineseOurClassesHero from "../components/chinese/our-classes/ChineseOurClassesHero";
 import ChineseOurClassesIntro from "../components/chinese/our-classes/ChineseOurClassesIntro";
 import ChineseOurClassesInfo from "../components/chinese/our-classes/ChineseOurClassesInfo";
@@ -9,7 +9,7 @@ import EnglishFooter from "../components/english/EnglishFooter";
 export default function ChineseOurClasses(){
     return(
         <div>
-            <ChineseHeader />
+            <ChineseOurClassesHeader />
             <ChineseOurClassesHero />
             <ChineseOurClassesIntro />
             <ChineseOurClassesInfo />

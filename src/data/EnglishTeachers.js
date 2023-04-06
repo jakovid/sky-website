@@ -4,9 +4,9 @@ import jacobPic from '../images/english-teachers/jacob.webp';
 import emilyPic from '../images/english-teachers/emily.webp';
 import markPic from '../images/english-teachers/mark.webp';
 import samPic from '../images/english-teachers/sam.webp';
-import usaFlag from '../images/english-teachers/usaFlag.webp';
-import canadaFlag from '../images/english-teachers/canadaFlag.webp';
-import ukFlag from '../images/english-teachers/ukFlag.webp';
+import usaFlag from '../images/english-teachers/usaFlag.png';
+import canadaFlag from '../images/english-teachers/canadaFlag.png';
+import ukFlag from '../images/english-teachers/ukFlag.png';
 import { v4 as uuidv4 } from 'uuid';
 
 let EnglishTeachers = [
@@ -19,11 +19,11 @@ let EnglishTeachers = [
         id: uuidv4()
     },
     {
-        name: 'Andrew',
-        flag: canadaFlag,
-        picture: andrewPic,
-        bio: 'Andrew has worked as an English teacher in Taipei for about 4 years, and has been at Sky Education for more than 3 years.',
-        ChineseBio: 'Andrew 出生於加拿大, 居住於溫哥華, 畢業於昆特侖理工大學心理學系. 在Sky Education擔任英語教師近3年.',
+        name: 'Sam',
+        flag: usaFlag,
+        picture: samPic,
+        bio: 'Sam has worked as an English teacher and comedian for nearly 8 years, starting in South Korea before coming to Sky Education 5 years ago.',
+        ChineseBio: 'Sam 從事英語教師和喜劇演員工作近 8 年，從韓國開始，5 年前加入天空教育。',
         id: uuidv4()
     },
     {
@@ -51,11 +51,11 @@ let EnglishTeachers = [
         id: uuidv4()
     },
     {
-        name: 'Sam',
-        flag: usaFlag,
-        picture: samPic,
-        bio: 'Sam has worked as an English teacher and comedian for nearly 8 years, starting in South Korea before coming to Sky Education 5 years ago.',
-        ChineseBio: 'Sam 從事英語教師和喜劇演員工作近 8 年，從韓國開始，5 年前加入天空教育。',
+        name: 'Andrew',
+        flag: canadaFlag,
+        picture: andrewPic,
+        bio: 'Andrew has worked as an English teacher in Taipei for about 4 years, and has been at Sky Education for more than 3 years.',
+        ChineseBio: 'Andrew 出生於加拿大, 居住於溫哥華, 畢業於昆特侖理工大學心理學系. 在Sky Education擔任英語教師近3年.',
         id: uuidv4()
     }
 ];

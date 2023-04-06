@@ -1,5 +1,5 @@
 import React from "react";
-import ChineseHeader from '../components/chinese/ChineseHeader';
+import ChineseOurTeamHeader from "../components/chinese/our-team/ChineseOurTeamHeader";
 import ChineseOurTeamHero from "../components/chinese/our-team/ChineseOurTeamHero";
 import ChineseOurTeamInfo from "../components/chinese/our-team/ChineseOurTeamInfo";
 import ChineseOurTeamTWTeachers from "../components/chinese/our-team/ChineseOurTeamTWTeachers";
@@ -9,7 +9,7 @@ import EnglishFooter from "../components/english/EnglishFooter";
 export default function ChineseOurTeam() {
     return(
         <div>
-            <ChineseHeader />
+            <ChineseOurTeamHeader />
             <ChineseOurTeamHero />
             <ChineseOurTeamInfo />
             <ChineseOurTeamTWTeachers />

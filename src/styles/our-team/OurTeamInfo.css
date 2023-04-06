@@ -1,18 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Raleway:wght@600&display=swap');
-
 #our-team-info-container {
     padding: 3vw 10vw 3vw 10vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 2vw;
-    font-family: 'Mulish', sans-serif;
-    /* background-image: url(../../images/OurTeamBG.webp); */
     background-size: contain;
 }
 
 #our-team-info-image {
+    display: flex;
     border-radius: 25px;
+    max-height: 27rem;
+    height: auto;
 }
 
 #our-team-info-text-box {

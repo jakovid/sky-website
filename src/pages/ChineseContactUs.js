@@ -1,12 +1,12 @@
 import ChineseContactUsHero from "../components/chinese/contact-us/ChineseContactUsHero";
 import ChineseContactUsBody from "../components/chinese/contact-us/ChineseContactUsBody";
 import EnglishFooter from "../components/english/EnglishFooter";
-import ChineseHeader from "../components/chinese/ChineseHeader";
+import ChineseContactUsHeader from "../components/chinese/contact-us/ChineseContactUsHeader";
 
 export default function ChineseContactUs() {
     return(
         <div>
-            <ChineseHeader />
+            <ChineseContactUsHeader />
             <ChineseContactUsHero />
             <ChineseContactUsBody />
             <div>

@@ -1,11 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Raleway:wght@600&display=swap');
-
 #our-classes-class-times-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Mulish', sans-serif;
-    /* background-image: url(../../images/OurTeamBG.webp); */
     background-size: contain;
 }
 

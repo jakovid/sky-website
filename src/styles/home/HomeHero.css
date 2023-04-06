@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @font-face {
     font-family: chineseFont;
     src: url('../../styles/fonts/SentyWEN2017.ttf');
@@ -40,10 +39,6 @@
     grid-column: 1 / 4;
     text-shadow: 2px 2px 4px black;
     color: white;
-}
-
-#hero-title.english {
-    font-family: 'Montserrat', sans-serif;
 }
 
 #hero-title.chinese {

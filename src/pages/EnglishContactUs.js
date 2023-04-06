@@ -1,4 +1,4 @@
-import EnglishHeader from "../components/english/EnglishHeader";
+import EnglishContactUsHeader from "../components/english/contact-us/EnglisContactUsHeader";
 import EnglishContactUsHero from "../components/english/contact-us/EnglishContactUsHero";
 import EnglishContactUsBody from "../components/english/contact-us/EnglishContactUsBody";
 import EnglishFooter from "../components/english/EnglishFooter";
@@ -6,7 +6,7 @@ import EnglishFooter from "../components/english/EnglishFooter";
 export default function EnglishContactUs() {
     return(
         <div>
-            <EnglishHeader />
+            <EnglishContactUsHeader />
             <EnglishContactUsHero />
             <EnglishContactUsBody />
             <div>

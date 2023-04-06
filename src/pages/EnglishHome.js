@@ -1,5 +1,5 @@
 import React from "react";
-import EnglishHeader from "../components/english/EnglishHeader.js";
+import EnglishHomeHeader from "../components/english/home/EnglishHomeHeader.js";
 import EnglishHeroHome from "../components/english/home/EnglishHomeHero.js";
 import EnglishHomeBody from "../components/english/home/EnglishHomeBody.js";
 import EnglishHomeCTA from "../components/english/home/EnglishHomeCTA.js";
@@ -9,7 +9,7 @@ import EnglishFooter from "../components/english/EnglishFooter.js";
 export default function EnglishHome(){
     return(
         <>
-        <EnglishHeader />
+        <EnglishHomeHeader />
         <EnglishHeroHome />
         <EnglishHomeBody />
         <EnglishHomeCTA />
