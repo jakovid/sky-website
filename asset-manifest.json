@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.30abe39e.css",
-    "main.js": "/static/js/main.d3e60c83.js",
+    "main.css": "/static/css/main.86a3772c.css",
+    "main.js": "/static/js/main.fda401d0.js",
     "static/media/SentyWEN2017.ttf": "/static/media/SentyWEN2017.efbdb4944b935728c061.ttf",
     "static/media/ClassPic11.webp": "/static/media/ClassPic11.71eb9a839f241e70f12e.webp",
     "static/media/ClassPic10.webp": "/static/media/ClassPic10.6cc0827407dbd7e45f24.webp",
     "static/media/SkylineBG.webp": "/static/media/SkylineBG.21b52067f1efbaf31ed2.webp",
-    "static/media/OurTeamBG.webp": "/static/media/OurTeamBG.4e943b2905aaaaec98aa.webp",
     "static/media/ClassPic14.webp": "/static/media/ClassPic14.0d15f8a034bf42a78137.webp",
     "static/media/ClassPic13.webp": "/static/media/ClassPic13.e1fc5aa5e078f82eaee6.webp",
     "static/media/ClassPic9.webp": "/static/media/ClassPic9.870e66bfceb54c2bc8b5.webp",
@@ -14,8 +13,10 @@
     "static/media/mark.webp": "/static/media/mark.2b6af86010a91a85ffd1.webp",
     "static/media/ClassPic5.webp": "/static/media/ClassPic5.97b26f86a4a7a09b144a.webp",
     "static/media/emily.webp": "/static/media/emily.2ec96b1a82002920400a.webp",
+    "static/media/OurTeam.jpg": "/static/media/OurTeam.bac420ec7632497bae01.jpg",
     "static/media/sam.webp": "/static/media/sam.24f149c92d6a77559390.webp",
     "static/media/mario.webp": "/static/media/mario.838c684694f0b3fdab61.webp",
+    "static/media/usaFlag.png": "/static/media/usaFlag.0e0ec41f1166df23c045.png",
     "static/media/ClassPic8.webp": "/static/media/ClassPic8.b067540949b3065cb826.webp",
     "static/media/andrew.webp": "/static/media/andrew.d39bb390cb6cb1b7080a.webp",
     "static/media/jacob.webp": "/static/media/jacob.6826beb81c8a900bb73a.webp",
@@ -25,26 +26,25 @@
     "static/media/tina.webp": "/static/media/tina.51a988ebc7445db9d415.webp",
     "static/media/wilma.webp": "/static/media/wilma.ece327be9faa46976922.webp",
     "static/media/ClassPic4.webp": "/static/media/ClassPic4.339213c3e8cb7fe445b1.webp",
+    "static/media/SkyLogo2.jpg": "/static/media/SkyLogo2.11f644a54f534a7594d5.jpg",
     "static/media/aliza.webp": "/static/media/aliza.b4e3f887776b5593b79c.webp",
     "static/media/ClassPic7.webp": "/static/media/ClassPic7.fa85c3c5b9d62f1c005c.webp",
     "static/media/ClassPic3.webp": "/static/media/ClassPic3.92add66c29b8f0ff1f6e.webp",
     "static/media/vivi.webp": "/static/media/vivi.6e90d47e9db4e28334e8.webp",
-    "static/media/SkyBanner.webp": "/static/media/SkyBanner.8dfb9f905fe733776e23.webp",
+    "static/media/usacan2.jpg": "/static/media/usacan2.28701d94e3f3509d4f81.jpg",
     "static/media/ClassPic2.webp": "/static/media/ClassPic2.86e8d3f3b6e9f8173fe2.webp",
+    "static/media/SkyLogo.jpg": "/static/media/SkyLogo.e54a3d6af99fc63c6549.jpg",
     "static/media/ClassPic1.webp": "/static/media/ClassPic1.840cf0904ef4064fa73a.webp",
     "static/media/SkyLogo2.webp": "/static/media/SkyLogo2.50f994ce17790512dd0f.webp",
-    "static/media/SkyLogo.webp": "/static/media/SkyLogo.57925e457cdae61e192b.webp",
-    "static/media/ukFlag.webp": "/static/media/ukFlag.3cac77083803d8758e3f.webp",
+    "static/media/ukFlag.png": "/static/media/ukFlag.ebe5c4be7091dc70fae6.png",
     "static/media/FacebookLogo.webp": "/static/media/FacebookLogo.315439a2b86b96c649a0.webp",
     "static/media/USAflag.svg": "/static/media/USAflag.33c8035805d0139924dd472c4d5b3adf.svg",
-    "static/media/usaFlag.webp": "/static/media/usaFlag.5d778b719ab6d3853034.webp",
-    "static/media/canadaFlag.webp": "/static/media/canadaFlag.a8b4b88e258075c9c5e7.webp",
     "index.html": "/index.html",
-    "main.30abe39e.css.map": "/static/css/main.30abe39e.css.map",
-    "main.d3e60c83.js.map": "/static/js/main.d3e60c83.js.map"
+    "main.86a3772c.css.map": "/static/css/main.86a3772c.css.map",
+    "main.fda401d0.js.map": "/static/js/main.fda401d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.30abe39e.css",
-    "static/js/main.d3e60c83.js"
+    "static/css/main.86a3772c.css",
+    "static/js/main.fda401d0.js"
   ]
 }
