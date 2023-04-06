@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Raleway:wght@600&display=swap');
 
 #our-classes-intro-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Mulish', sans-serif;
     padding: 2rem 0rem 0rem 0rem;
-    /* background-image: url(../../images/OurTeamBG.webp); */
     background-size: contain;
 }
 

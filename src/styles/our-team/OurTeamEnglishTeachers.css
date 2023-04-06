@@ -1,12 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Raleway:wght@600&display=swap');
-
 #our-team-english-teachers-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Mulish', sans-serif;
     padding: 3rem;
-    /* background-image: url(../../images/OurTeamBG.webp); */
     background-size: contain;
 }
 
@@ -17,26 +13,34 @@
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    width: 70rem;
+    width: 60rem;
     gap: 3rem;
 }
 
 .english-teacher-picture {
-    height: 20rem;
-    max-width: 30rem;
+    max-height: 16rem;
+    max-width: 20rem;
+    height: auto;
+    width: auto;
 }
 
 .english-teacher-info-box {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
 }
 
 .english-teacher-name {
     color: darkblue;
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: bold;
     text-align: left;
+}
+
+.english-teacher-flag {
+    height: 2rem;
 }
 
 .english-teacher-bio {

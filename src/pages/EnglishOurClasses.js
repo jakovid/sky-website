@@ -1,5 +1,5 @@
 import React from "react";
-import EnglishHeader from "../components/english/EnglishHeader";
+import EnglishOurClassesHeader from "../components/english/our-classes/EnglisOurClassesHeader";
 import EnglishOurClassesHero from "../components/english/our-classes/EnglishOurClassesHero";
 import EnglishOurClassesIntro from "../components/english/our-classes/EnglishOurClassesIntro";
 import EnglishOurClassesInfo from "../components/english/our-classes/EnglishOurClassesInfo";
@@ -10,7 +10,7 @@ import EnglishFooter from "../components/english/EnglishFooter";
 export default function EnglishOurClasses(){
     return(
         <div>
-            <EnglishHeader />
+            <EnglishOurClassesHeader />
             <EnglishOurClassesHero />
             <EnglishOurClassesIntro />
             <EnglishOurClassesInfo />

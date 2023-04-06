@@ -1,5 +1,5 @@
 import React from "react";
-import ChineseHeader from "../components/chinese/ChineseHeader.js";
+import ChineseHomeHeader from "../components/chinese/home/ChineseHomeHeader.js";
 import ChineseHeroHome from "../components/chinese/home/ChineseHomeHero.js";
 import ChineseHomeBody from "../components/chinese/home/ChineseHomeBody.js";
 import ChineseHomeCTA from "../components/chinese/home/ChineseHomeCTA.js";
@@ -9,7 +9,7 @@ import EnglishFooter from "../components/english/EnglishFooter.js";
 export default function ChineseHome(){
     return(
         <>
-        <ChineseHeader />
+        <ChineseHomeHeader />
         <ChineseHeroHome />
         <ChineseHomeBody />
         <ChineseHomeCTA />

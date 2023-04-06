@@ -1,5 +1,5 @@
 import React from "react";
-import SkyBanner from '../../../images/SkyBanner.webp';
+import SkyBanner from '../../../images/OurTeam.jpg';
 import '../../../styles/our-team/OurTeamInfo.css';
 
 export default function ChineseOurTeamInfo(){

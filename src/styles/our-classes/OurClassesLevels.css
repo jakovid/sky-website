@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Raleway:wght@600&display=swap');
 @font-face {
     font-family: chineseFont;
     src: url('../../styles/fonts/SentyWEN2017.ttf');
@@ -9,9 +8,7 @@
     flex-direction: column;
     align-items: center;
     gap: 3rem;
-    font-family: 'Mulish', sans-serif;
     padding: 5rem 0rem 3rem 0rem;
-    /* background-image: url(../../images/OurTeamBG.webp); */
     background-size: contain;
 
 }

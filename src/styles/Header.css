@@ -1,11 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Raleway:wght@600&display=swap');
 @font-face {
     font-family: chineseFont;
     src: url('../styles/fonts/SentyWEN2017.ttf');
-}
-
-* {
-    margin: 0;
 }
 
 #header-wrapper-3 {
@@ -48,13 +43,13 @@
     text-decoration: none;
 }
 
+
 .header-btn {
     color: darkred;
     padding: 0.5rem;
 }
 
 .header-btn.english {
-    font-family: 'Mulish', sans-serif;
     font-size: 1.2rem;
     text-align: center;
     
@@ -158,4 +153,14 @@
 .header-language-name {
     display: none;
 }
+}
+
+
+#selected-header-page {
+    background-color: darkred;
+    border-radius: 1rem;
+}
+
+#selected-header-page>div {
+    color: white;
 }

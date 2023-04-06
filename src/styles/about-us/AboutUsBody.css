@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Raleway:wght@600&display=swap');
 
 @font-face {
     font-family: chineseFont;
@@ -7,7 +6,6 @@
 
 #about-us-intro-container {
     text-align: center;
-    font-family: 'Mulish', sans-serif;
 }
 
 #about-us-intro-title {
@@ -53,7 +51,6 @@
     text-align: center;
     align-items: center;
     padding-top: 2.2vw;
-    font-family: 'Mulish', sans-serif;
 }
 
 .about-us-main-item {

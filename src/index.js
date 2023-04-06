@@ -12,6 +12,7 @@ import ChineseAboutUs from "./pages/ChineseAboutUs";
 import ChineseOurTeam from "./pages/ChineseOurTeam";
 import ChineseOurClasses from "./pages/ChineseOurClasses";
 import ChineseContactUs from "./pages/ChineseContactUs";
+import "./App.css";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
