@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.86a3772c.css",
-    "main.js": "/static/js/main.fda401d0.js",
+    "main.js": "/static/js/main.767a9985.js",
     "static/media/SentyWEN2017.ttf": "/static/media/SentyWEN2017.efbdb4944b935728c061.ttf",
     "static/media/ClassPic11.webp": "/static/media/ClassPic11.71eb9a839f241e70f12e.webp",
     "static/media/ClassPic10.webp": "/static/media/ClassPic10.6cc0827407dbd7e45f24.webp",
@@ -36,15 +36,16 @@
     "static/media/SkyLogo.jpg": "/static/media/SkyLogo.e54a3d6af99fc63c6549.jpg",
     "static/media/ClassPic1.webp": "/static/media/ClassPic1.840cf0904ef4064fa73a.webp",
     "static/media/SkyLogo2.webp": "/static/media/SkyLogo2.50f994ce17790512dd0f.webp",
+    "static/media/cindy.jpg": "/static/media/cindy.44543ef8a9f11795ceaa.jpg",
     "static/media/ukFlag.png": "/static/media/ukFlag.ebe5c4be7091dc70fae6.png",
     "static/media/FacebookLogo.webp": "/static/media/FacebookLogo.315439a2b86b96c649a0.webp",
     "static/media/USAflag.svg": "/static/media/USAflag.33c8035805d0139924dd472c4d5b3adf.svg",
     "index.html": "/index.html",
     "main.86a3772c.css.map": "/static/css/main.86a3772c.css.map",
-    "main.fda401d0.js.map": "/static/js/main.fda401d0.js.map"
+    "main.767a9985.js.map": "/static/js/main.767a9985.js.map"
   },
   "entrypoints": [
     "static/css/main.86a3772c.css",
-    "static/js/main.fda401d0.js"
+    "static/js/main.767a9985.js"
   ]
 }
