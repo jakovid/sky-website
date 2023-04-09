@@ -26,8 +26,8 @@
 }
 
 .about-us-intro-box {
-    color: white;
-    background-color: darkred;
+    color: darkred;
+    border: 5px solid darkred;
     width: 28vw;
     min-height: 12.5vw;
     border-radius: 20px;
