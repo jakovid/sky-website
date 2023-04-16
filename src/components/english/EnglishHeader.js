@@ -32,7 +32,7 @@ export default function EnglishHeader() {
                             <img className="header-btn-icon" src={OurClasses}/>
                         </a>
                         <a href='../#/contact-us/en' title="Contact Us">
-                            <div className='header-btn english'>Contact</div>
+                            <div className='header-btn english'>Contact Us</div>
                             <img className="header-btn-icon" src={ContactUs}/>
                         </a>
                     </div>
