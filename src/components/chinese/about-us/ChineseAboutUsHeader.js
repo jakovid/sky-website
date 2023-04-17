@@ -41,7 +41,7 @@ export default function ChineseAboutUsHeader() {
                     <div>
                         <a href='../#/about-us/en' id='header-language'>
                         <img className='header-language-flag' src={USAflag} />
-                        <div class='header-language-name'>English</div>
+                        <div className='header-language-name'>English</div>
                         </a>
                     </div>
                 </div>

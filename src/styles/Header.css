@@ -43,6 +43,15 @@
     text-decoration: none;
 }
 
+#selected-header-page {
+    background-color: darkred;
+    border-radius: 1rem;
+    fill: white;
+}
+
+#selected-header-page>div {
+    color: white;
+}
 
 .header-btn {
     color: darkred;
@@ -100,18 +109,57 @@
     display: none;
 }
 
-@media (max-width:1030px) {
-.header-btn.header-btn.english {
-    font-size: 2vw;
+/* laptops */
+@media (min-width: 769px) and (max-width:1024px) {
+.header-btn.english {
+    font-size: 1.75vw;
     }
 
-.header-btn.header-btn.chinese {
-    font-size: 2vw;
+.header-btn.chinese {
+    font-size: 1.75vw;
+    }
+}
+
+/* tablets */
+@media (min-width: 600px) and (max-width:768px) {
+    #header-wrapper-1 {
+        padding-left: 0.25rem;
+        height: 3rem;
+        display: grid;
+        grid-template-columns: 1fr 5fr 1fr;
+        gap: 4vw;
+    }
+
+    #header-logo {
+        height: 3rem;
+        width: 4rem;
+    }
+
+    #header-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-btn.english {
+        font-size: 1.5vw;
+    }
+
+    .header-btn.chinese {
+        font-size: 2vw;
+    }
+
+    #header-language {
+        height: 2.5rem;
+    }
+
+    .header-language-flag {
+        height: 2.5rem;
+        width: 2.5rem;
     }
 }
 
 /* mobile portrait */
-@media (max-width:500px) {
+@media (max-width:599px) {
 #header-wrapper-1 {
     padding-left: 0rem;
     background-color: white;
@@ -128,12 +176,14 @@
 
 #header-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 5vw;
 }
 
 .header-btn-icon {
     display: unset;
     height: 2.5rem;
+    fill: inherit;
 }
 
 .header-btn {
@@ -146,6 +196,11 @@
     gap: unset;
 }
 
+.header-language-flag {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
 #header-language:hover {
     background-color: unset;
 }
@@ -155,12 +210,3 @@
 }
 }
 
-
-#selected-header-page {
-    background-color: darkred;
-    border-radius: 1rem;
-}
-
-#selected-header-page>div {
-    color: white;
-}
