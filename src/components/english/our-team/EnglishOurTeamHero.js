@@ -1,12 +1,11 @@
 import React from "react";
-import "../../../styles/our-team/OurTeamHero.css"
-
-
+import SkyLogo2 from "../../../images/SkyLogo2.webp";
 
 export default function EnglishOurTeamHero() {
     return(
-        <div id='our-team-hero-container'>
-            <div id='our-team-hero-text'>OUR TEAM</div>
+        <div id='hero-container' class="our-team-page">
+            <img id='hero-logo' src={SkyLogo2} />
+            <div id='hero-title'>OUR TEAM</div>
         </div>
     )
 }

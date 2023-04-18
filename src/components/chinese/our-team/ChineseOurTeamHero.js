@@ -1,12 +1,12 @@
 import React from "react";
-import "../../../styles/our-team/OurTeamHero.css"
-
+import SkyLogo2 from "../../../images/SkyLogo2.webp";
 
 
 export default function ChineseOurTeamHero() {
     return(
-        <div id='our-team-hero-container'>
-            <div id='our-team-hero-text' className='chinese'>我們的團隊</div>
+        <div id='hero-container' class="our-team-page">
+            <img id='hero-logo' src={SkyLogo2} />
+            <div id='hero-title' className='chinese'>我們的團隊</div>
         </div>
     )
 }

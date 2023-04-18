@@ -1,10 +1,11 @@
 import React from "react";
-import '../../../styles/our-classes/OurClassesHero.css';
+import SkyLogo2 from "../../../images/SkyLogo2.webp";
 
 export default function EnglishOurClassesHero() {
     return(
-        <div id='our-classes-hero-container'>
-            <div id='our-classes-hero-text'>OUR CLASSES</div>
+        <div id='hero-container' class="our-classes-page">
+            <img id='hero-logo' src={SkyLogo2} />
+            <div id='hero-title'>OUR CLASSES</div>
         </div>
     )
 }

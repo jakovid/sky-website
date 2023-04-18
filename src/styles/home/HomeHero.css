@@ -23,10 +23,34 @@
     background-size:cover;
 }
 
+#hero-container.about-us-page {
+    background-image: url(../../images/ClassPic5.webp);
+}
+
+#hero-container.our-team-page {
+    background-image: url(../../images/ClassPic8.webp);
+}
+
+#hero-container.our-classes-page {
+    background-image: url('../../images/ClassPic9.webp');
+}
+
+#hero-container.contact-us-page {
+    background-image: url(../../images/ClassPic14.webp);
+}
+
+#hero-container.about-us-page>#hero-logo, #hero-container.our-team-page>#hero-logo, #hero-container.our-classes-page>#hero-logo, #hero-container.contact-us-page>#hero-logo {
+    opacity: 0;
+}
+
 #hero-logo {
-    padding-top: 3vw;
-    padding-bottom: 3vw;
+    margin-top: 2vw;
+    padding-top:1vw;
+    margin-bottom: 3vw;
+    padding-left: 1vw;
+    padding-right: 5vw;
     justify-content: left;
+    border-radius: 0 10vw 10vw 0;
     width: 30vw;
 }
 
@@ -43,6 +67,7 @@
 
 #hero-title.chinese {
     font-family: chineseFont;
+    padding-bottom: 6vw;
 }
 /* Laptop */
 @media (max-width:1030px) { 

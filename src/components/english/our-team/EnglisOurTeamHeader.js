@@ -1,11 +1,6 @@
 import '../../../styles/Header.css';
 import TWflag from '../../../images/TWFlag.png';
 import SkyLogo from '../../../images/SkyLogo.jpg';
-import Home from "../../../images/icons/home.png";
-import AboutUs from "../../../images/icons/about-us.png";
-import OurTeam from "../../../images/icons/our-team.png";
-import OurClasses from "../../../images/icons/our-classes.png";
-import ContactUs from "../../../images/icons/contact-us.png";
 
 export default function EnglishOurTeamHeader() {
     return(

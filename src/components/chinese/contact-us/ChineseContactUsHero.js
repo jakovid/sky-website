@@ -1,10 +1,11 @@
 import React from "react";
-import "../../../styles/contact-us/ContactUsHero.css";
+import SkyLogo2 from "../../../images/SkyLogo2.webp";
 
 export default function ChineseContactUsHero() {
     return (
-        <div className="contact-us-hero-container">
-            <div className="contact-us-hero-text chinese">保持聯繫</div>
+        <div id='hero-container' class="contact-us-page">
+            <img id='hero-logo' src={SkyLogo2} />
+            <div id="hero-title" className="chinese">保持聯繫</div>
         </div>
     )
 }
