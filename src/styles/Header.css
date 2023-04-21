@@ -166,7 +166,7 @@
     height: 3rem;
     display: grid;
     justify-content: 1fr 5fr 1fr;
-    gap: 4vw;
+    gap: 2vw;
 }
 
 #header-logo {
@@ -177,7 +177,7 @@
 #header-nav {
     display: flex;
     justify-content: center;
-    gap: 5vw;
+    gap: 2vw;
 }
 
 .header-btn-icon {
