@@ -45,7 +45,7 @@ export default function EnglishHomeBody() {
                 <div className='home-body-text'>
                 Back in 2008, we believed that the English books used in Taiwanese 
                 classrooms were outdated, irrelevant and boring. 
-                So, we decided to create our own Sky books. (Phonics, Reading, Grammar)
+                So, we decided to create our own Sky books. (Phonics, Reading, and Grammar)
                 </div>
             </div>
 
