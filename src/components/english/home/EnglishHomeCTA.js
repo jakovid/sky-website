@@ -34,7 +34,7 @@ export default function EnglishHomeCTA() {
                 </form>
 
                 <div id='home-cta-email-subtext'>
-                    We'll get in touch with you very soon. 
+                    We'll get in touch very soon. 
                     Thank you!
                 </div>
 
