@@ -49,7 +49,7 @@ export default function EnglishAboutUsBody() {
                             From the moment students walk into Sky; they are in an English speaking environment. 
                             We create a high-energy learning environment that is fun for our students to learn 
                             and teachers to teach. Happy teachers are more productive and creative, 
-                            as happy children learn better.
+                            and happy children learn better.
                         </div>
                     </div>
                 </div>
