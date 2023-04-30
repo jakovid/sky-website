@@ -24,7 +24,7 @@ export default function EnglishContactUsBody(){
                         Have Questions? Want to Sign Up?
                     </div>
                     <div className="contact-us-body-subtitle">
-                        Fill out the form below, email, or call and we will get back to you shortly!
+                        Fill out the form below, email, or call and we will get back to you as soon as possible!
                     </div>
                 </div>
                 <form className="contact-us-body-left-form" ref={form} onSubmit={sendEmail}>
