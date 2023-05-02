@@ -42,6 +42,10 @@
 /* mobile portrait */
 @media (max-width:500px) {
 
+    #our-classes-class-times-container {
+        gap: 1rem;
+    }
+
     #our-classes-box{
         gap: 3vw;
     }

@@ -76,8 +76,8 @@
 /* mobile portrait */
 @media (max-width:500px) {
     #our-classes-container {
-        gap: 7vw;
-        padding: 7vw 0 4vw 0;
+        gap: 5vw;
+        padding: 0;
     }
 
     .class-level-item {
@@ -85,7 +85,7 @@
         flex-direction: column-reverse;
         width: 80vw;
         padding: 5vw;
-        gap: 2vw;
+        gap: 5vw;
         text-align: center;
         align-items: center;
     }
@@ -95,10 +95,11 @@
     }
 
     .class-level-info-title {
-        font-size: 12vw;
+        font-size: 10vw;
     }
 
     .class-level-info-text {
-        font-size: 6.5vw;
+        font-size: 5vw;
+        padding-top: 1rem;
     }
 }
